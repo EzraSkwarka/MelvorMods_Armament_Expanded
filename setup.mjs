@@ -7,7 +7,7 @@ export function setup(ctx) {
 }
 
 const modifyMonsterDrops = () => {
-  addDropToLootTable("melvorD:Plant", ["Armament_Expanded:Bronze_Spear", 1, 1, 5]);
+  // addDropToLootTable("melvorD:Plant", ["Armament_Expanded:Bronze_Spear", 1, 1, 5]);
 };
 
 const addDropToLootTable = (monster, drop_array) => {

@@ -13,8 +13,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "tier": "wooden",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Quiver"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -46,7 +50,7 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoType": null
+        "ammoTypeRequired": "None"
       },
       {
         "id": "Bronze_Spear",
@@ -59,8 +63,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2,
         "tier": "bronze",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -104,8 +112,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 21,
         "tier": "iron",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -149,8 +161,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 25,
         "tier": "steel",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -194,8 +210,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 182,
         "tier": "mithril",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -239,8 +259,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 252,
         "tier": "adamant",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -284,8 +308,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 430,
         "tier": "rune",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -329,8 +357,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2250,
         "tier": "dragon",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -374,8 +406,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 25,
         "tier": "iron",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -419,8 +455,12 @@
         "golbinRaidExclusive": false,
         "sellsFor": 430,
         "tier": "ice",
-        "validSlots": ["Weapon"],
-        "occupiesSlots": ["Shield"],
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Shield"
+        ],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -452,7 +492,340 @@
         ],
         "itemType": "Weapon",
         "attackType": "melee",
-        "specialAttacks": ["Armament_Expanded:Frozen_Wind"]
+        "specialAttacks": [
+          "Armament_Expanded:Frozen_Wind"
+        ]
+      },
+      {
+        "id": "Bullwhip",
+        "name": "Bullwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Hardened_Bullwhip",
+        "name": "Hardened Bullwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 25
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Green_Dragonwhip",
+        "name": "Green Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 30
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Blue_Dragonwhip",
+        "name": "Blue Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 40,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 23
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 35
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Red_Dragonwhip",
+        "name": "Red Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 41
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 40
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Black_Dragonwhip",
+        "name": "Black Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 315,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 50
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 61
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 45
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Elder_Dragonwhip",
+        "name": "Elder Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 68
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 50
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None"
+      },
+      {
+        "id": "Infernal_Dragonwhip",
+        "name": "Infernal Dragonwhip",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1000000,
+        "validSlots": [
+          "Weapon"
+        ],
+        "occupiesSlots": [
+          "Quiver"
+        ],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 75
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 71
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 81
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "None",
+        "specialAttacks": [
+          "Armament_Expanded:Quad_Strike"
+        ]
       }
     ],
     "skillData": [
@@ -623,7 +996,22 @@
         "attackInterval": 50,
         "lifesteal": 0,
         "description": "",
-        "attackTypes": ["melee"]
+        "attackTypes": [
+          "melee"
+        ]
+      },
+      {
+        "id": "Quad_Strike",
+        "name": "Quad Strike",
+        "defaultChance": 15,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 4,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Perform 4 consecutive attacks."
       }
     ]
   },
