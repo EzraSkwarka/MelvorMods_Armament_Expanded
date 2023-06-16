@@ -14,7 +14,7 @@
         "sellsFor": 0,
         "tier": "wooden",
         "validSlots": ["Weapon"],
-        "occupiesSlots": [],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -45,7 +45,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "ranged",
+        "ammoType": null
       },
       {
         "id": "Bronze_Spear",
