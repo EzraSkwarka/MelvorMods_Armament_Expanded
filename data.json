@@ -975,6 +975,18 @@
             }
           ]
         }
+      },
+      {
+        "skillID": "melvorD:Crafting",
+        "data": {
+          "categories": [
+            {
+              "id": "bullwhips",
+              "media": "assets/temp.png",
+              "name": "Bullwhips"
+            }
+          ]
+        }
       }
     ],
     "attacks": [
