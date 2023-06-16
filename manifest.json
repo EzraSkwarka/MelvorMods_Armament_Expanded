@@ -1,0 +1,5 @@
+{
+    "namespace": "Armament_Expanded",
+    "setup": "setup.mjs",
+    "load": "data.json"
+  }

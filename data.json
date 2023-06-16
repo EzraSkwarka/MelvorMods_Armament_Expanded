@@ -1,0 +1,664 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "items": [
+      {
+        "id": "Test_Weapon",
+        "name": "Test Weapon",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "tier": "wooden",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 1
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Bronze_Spear",
+        "name": "Bronze Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 16
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Iron_Spear",
+        "name": "Iron Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 25
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Steel_Spear",
+        "name": "Steel Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 38
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 38
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 37
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Mithril_Spear",
+        "name": "Mithril Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 182,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 43
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 43
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 53
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Adamant_Spear",
+        "name": "Adamant Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 252,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 62
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 62
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 70
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Rune_Spear",
+        "name": "Rune Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 84
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 84
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 124
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Dragon_Spear",
+        "name": "Dragon Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 113
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 113
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 165
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Black_Spear",
+        "name": "Black Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 10
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 44
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ice_Spear",
+        "name": "Ice Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "ice",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 65
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 65
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 122
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:Frozen_Wind"]
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Smithing",
+        "data": {
+          "recipes": [
+            {
+              "id": "Bronze_Spear",
+              "level": 14,
+              "productID": "Armament_Expanded:Bronze_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "melvorD:BronzeGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Bronze_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Iron_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Iron_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 60,
+              "categoryID": "melvorD:IronGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Iron_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Oak_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Steel_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Steel_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 1,
+              "categoryID": "melvorD:SteelGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Steel_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Willow_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Mithril_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Mithril_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 1,
+              "categoryID": "melvorD:MithrilGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Mithril_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Maple_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Adamant_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Adamant_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 1,
+              "categoryID": "melvorD:AdamantGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Adamantite_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Mahogany_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Rune_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Rune_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 1,
+              "categoryID": "melvorD:RuneGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Runite_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Yew_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Dragon_Spear",
+              "level": 23,
+              "productID": "Armament_Expanded:Dragon_Spear",
+              "baseQuantity": 1,
+              "baseExperience": 1,
+              "categoryID": "melvorD:DragonGear",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Dragonite_Bar",
+                  "quantity": 3
+                },
+                {
+                  "id": "melvorD:Mahogany_Logs",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            }
+          ]
+        }
+      }
+    ],
+    "attacks": [
+      {
+        "id": "Frozen_Wind",
+        "name": "Frozen Wind",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Slow",
+            "magnitude": 30,
+            "turns": 3
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
+        "attackTypes": ["melee"]
+      }
+    ]
+  },
+  "modifications": {
+    "items": [
+      {
+        "id": "melvorD:Frozen_Chest",
+        "dropTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Ice_Spear",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": []
+        }
+      }
+    ],
+    "monsters": [
+      {
+        "id": "melvorD:BlackKnight",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Black_Spear",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            }
+          ],
+          "remove": []
+        }
+      }
+    ]
+  },
+  "namespace": "Armament_Expanded"
+}
