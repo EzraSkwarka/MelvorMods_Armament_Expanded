@@ -29,23 +29,15 @@
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2200
+            "value": 800
           },
           {
-            "key": "stabAttackBonus",
-            "value": 4
+            "key": "rangedAttackBonus",
+            "value": 20000
           },
           {
-            "key": "slashAttackBonus",
-            "value": 1
-          },
-          {
-            "key": "blockAttackBonus",
-            "value": 4
-          },
-          {
-            "key": "meleeStrengthBonus",
-            "value": 1
+            "key": "rangedStrengthBonus",
+            "value": 20000
           }
         ],
         "itemType": "Weapon",
@@ -828,6 +820,27 @@
         ]
       }
     ],
+    "itemUpgrades": [
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Dragonwhip",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Elder_Dragonwhip",
+            "quantity": 1
+          },
+          {
+            "id": "melvorF:Infernal_Core",
+            "quantity": 15
+          }
+        ],
+        "rootItemIDs": [
+          "Armament_Expanded:Elder_Dragonwhip"
+        ],
+        "isDowngrade": false
+      }
+    ],
     "skillData": [
       {
         "skillID": "melvorD:Smithing",
@@ -981,9 +994,151 @@
         "data": {
           "categories": [
             {
-              "id": "bullwhips",
+              "id": "Bullwhips",
               "media": "assets/temp.png",
               "name": "Bullwhips"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Bullwhip",
+              "level": 1,
+              "productID": "Armament_Expanded:Bullwhip",
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Leather",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Hardened_Bullwhip",
+              "level": 20,
+              "productID": "Armament_Expanded:Hardened_Bullwhip",
+              "baseQuantity": 1,
+              "baseExperience": 15,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Leather",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Oak_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Green_Dragonwhip",
+              "level": 35,
+              "productID": "Armament_Expanded:Green_Dragonwhip",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Green_Dragonhide",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Willow_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Blue_Dragonwhip",
+              "level": 50,
+              "productID": "Armament_Expanded:Blue_Dragonwhip",
+              "baseQuantity": 1,
+              "baseExperience": 50,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Blue_Dragonhide",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Maple_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Red_Dragonwhip",
+              "level": 65,
+              "productID": "Armament_Expanded:Red_Dragonwhip",
+              "baseQuantity": 1,
+              "baseExperience": 65,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Red_Dragonhide",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Yew_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Black_Dragonwhip",
+              "level": 80,
+              "productID": "Armament_Expanded:Black_Dragonwhip",
+              "baseQuantity": 1,
+              "baseExperience": 80,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Black_Dragonhide",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Magic_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Elder_Dragonwhip",
+              "level": 90,
+              "productID": "Armament_Expanded:Elder_Dragonwhip",
+              "baseQuantity": 1,
+              "baseExperience": 90,
+              "categoryID": "Armament_Expanded:Bullwhips",
+              "itemCosts": [
+                {
+                  "id": "melvorF:Elder_Dragonhide",
+                  "quantity": 5
+                },
+                {
+                  "id": "melvorD:Redwood_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
             }
           ]
         }
