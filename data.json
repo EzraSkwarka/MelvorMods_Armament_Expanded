@@ -13,12 +13,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "tier": "wooden",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -55,12 +51,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2,
         "tier": "bronze",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -91,7 +83,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Iron_Spear",
@@ -104,12 +97,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 21,
         "tier": "iron",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -140,7 +129,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Steel_Spear",
@@ -153,12 +143,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 25,
         "tier": "steel",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -189,7 +175,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Mithril_Spear",
@@ -202,12 +189,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 182,
         "tier": "mithril",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -238,7 +221,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Adamant_Spear",
@@ -251,12 +235,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 252,
         "tier": "adamant",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -287,7 +267,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Rune_Spear",
@@ -300,12 +281,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 430,
         "tier": "rune",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -336,7 +313,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Dragon_Spear",
@@ -349,12 +327,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2250,
         "tier": "dragon",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -385,7 +359,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
       },
       {
         "id": "Black_Spear",
@@ -398,12 +373,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 25,
         "tier": "iron",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -447,12 +418,8 @@
         "golbinRaidExclusive": false,
         "sellsFor": 430,
         "tier": "ice",
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Shield"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -484,9 +451,7 @@
         ],
         "itemType": "Weapon",
         "attackType": "melee",
-        "specialAttacks": [
-          "Armament_Expanded:Frozen_Wind"
-        ]
+        "specialAttacks": ["Armament_Expanded:Frozen_Wind"]
       },
       {
         "id": "Bullwhip",
@@ -498,12 +463,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 5,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -527,7 +488,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Hardened_Bullwhip",
@@ -539,12 +501,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 10,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -568,7 +526,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Green_Dragonwhip",
@@ -580,12 +539,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 15,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -609,7 +564,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Blue_Dragonwhip",
@@ -621,12 +577,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 40,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -650,7 +602,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Red_Dragonwhip",
@@ -662,12 +615,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 85,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -691,7 +640,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Black_Dragonwhip",
@@ -703,12 +653,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 315,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -732,7 +678,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Elder_Dragonwhip",
@@ -744,12 +691,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 500,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -773,7 +716,8 @@
         ],
         "itemType": "Weapon",
         "attackType": "ranged",
-        "ammoTypeRequired": "None"
+        "ammoTypeRequired": "None",
+        "specialAttacks": ["Armament_Expanded:whip_slow"]
       },
       {
         "id": "Infernal_Dragonwhip",
@@ -785,12 +729,8 @@
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
         "sellsFor": 1000000,
-        "validSlots": [
-          "Weapon"
-        ],
-        "occupiesSlots": [
-          "Quiver"
-        ],
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Quiver"],
         "equipRequirements": [
           {
             "type": "SkillLevel",
@@ -815,9 +755,7 @@
         "itemType": "Weapon",
         "attackType": "ranged",
         "ammoTypeRequired": "None",
-        "specialAttacks": [
-          "Armament_Expanded:Quad_Strike"
-        ]
+        "specialAttacks": ["Armament_Expanded:Quad_Strike", "Armament_Expanded:whip_slow"]
       }
     ],
     "itemUpgrades": [
@@ -835,9 +773,7 @@
             "quantity": 15
           }
         ],
-        "rootItemIDs": [
-          "Armament_Expanded:Elder_Dragonwhip"
-        ],
+        "rootItemIDs": ["Armament_Expanded:Elder_Dragonwhip"],
         "isDowngrade": false
       }
     ],
@@ -1163,9 +1099,7 @@
         "attackInterval": 50,
         "lifesteal": 0,
         "description": "",
-        "attackTypes": [
-          "melee"
-        ]
+        "attackTypes": ["melee"]
       },
       {
         "id": "Quad_Strike",
@@ -1179,6 +1113,255 @@
         "attackInterval": 50,
         "lifesteal": 0,
         "description": "Perform 4 consecutive attacks."
+      },
+      {
+        "id": "dagger_crit",
+        "name": "Go For the Throat",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": true,
+            "minRoll": "MinHit",
+            "minPercent": 100,
+            "maxRoll": "MaxHit",
+            "maxPercent": 200
+          }
+        ],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "${attackDamageMinValue0}% of your min hit to ${attackDamageMaxValue0}% of your max hit",
+        "descriptionGenerator": "<damage>"
+      },
+      {
+        "id": "sword_dr_boost",
+        "name": "Careful Swing",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Attacker",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedDamageReduction": 5
+            },
+            "media": ""
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "gives you +${onHitEffect0modValue0}% Damage Reduction for ${onHitEffect0turns} of the enemy's turns",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "whip_slow",
+        "name": "Disorientating Crack",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Slow",
+            "magnitude": 20,
+            "turns": 3
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "gives the enemy +${onHitEffect0modValue0}% Attack Interval for ${onHitEffect0turns} of the enemy's turns",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "scimitar_fast",
+        "name": "Sweaping Wind",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Attacker",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedAttackInterval": 50
+            },
+            "media": ""
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "gives you -${preHitEffect0modValue0}s Attack Interval until the end of the attack",
+        "descriptionGenerator": "<prehitEffect>"
+      },
+      {
+        "id": "spear_acc",
+        "name": "Deadeye Jab",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": true,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "unavoidable",
+        "descriptionGenerator": "<avoidable>"
+      },
+      {
+        "id": "2h_smash",
+        "name": "Heavy Blow",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "MaxHit",
+            "maxPercent": 150
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Attacker",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedAttackInterval": 20
+            },
+            "media": ""
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "${attackDamageMaxValue0}% of your max hitgives you +${preHitEffect0modValue0}s Attack Interval until the end of the attack",
+        "descriptionGenerator": "<damage><prehitEffect>"
+      },
+      {
+        "id": "crossbow_rapid",
+        "name": "Rapid Fire",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 2,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "${hitCount}",
+        "attackTypes": ["ranged"],
+        "descriptionGenerator": "<count>"
+      },
+      {
+        "id": "longbow_shot",
+        "name": "Called Shot",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Custom",
+            "character": "Attacker",
+            "roll": false,
+            "maxRoll": "MaxHit",
+            "maxPercent": 150
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 0,
+            "character": "Attacker",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "increasedAttackInterval": 20
+            },
+            "media": ""
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "<damagegives you +${preHitEffect0modValue0}s Attack Interval until the end of the attack>",
+        "attackTypes": ["ranged"],
+        "descriptionGenerator": "<damage<prehitEffect>>"
+      },
+      {
+        "id": "axe_double",
+        "name": "Backhand Followthrough",
+        "defaultChance": 20,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 2,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "${hitCount}",
+        "descriptionGenerator": "<count>"
+      },
+      {
+        "id": "shortbow_shot",
+        "name": "Hunter's Bluff",
+        "defaultChance": 20,
+        "damage": [
+          {
+            "damageType": "Normal",
+            "amplitude": 0
+          }
+        ],
+        "prehitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 3,
+            "character": "Attacker",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedAttackInterval": 30
+            },
+            "media": ""
+          }
+        ],
+        "onhitEffects": [],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "Deals no damage but incresses attack speed",
+        "attackTypes": ["ranged"]
       }
     ]
   },
@@ -1197,7 +1380,308 @@
           ],
           "remove": []
         }
-      }
+      },
+      {
+        "id": "melvorD:Bronze_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Iron_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Steel_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Adamant_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Rune_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Dagger",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:dagger_crit"]
+        }
+      },
+      {
+        "id": "melvorD:Bronze_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Iron_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Steel_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Adamant_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Rune_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:sword_dr_boost"]
+        }
+      },
+      {
+        "id": "melvorD:Bronze_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Iron_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Steel_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Adamant_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Rune_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Scimitar",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:scimitar_fast"]
+        }
+      },
+      {
+        "id": "melvorD:Bronze_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Iron_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Steel_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Adamant_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Rune_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_2H_Sword",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:2h_smash"]
+        }
+      },
+      {
+        "id": "melvorD:Bronze_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Iron_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Steel_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Mithril_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Adamant_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Rune_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorD:Dragon_Battleaxe",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:axe_double"]
+        }
+      },
+      {
+        "id": "melvorF:Bronze_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Iron_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Steel_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Mithril_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Adamant_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Rune_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Dragon_Crossbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:crossbow_rapid"]
+        }
+      },
+      {
+        "id": "melvorF:Normal_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorF:Oak_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorF:Willow_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Maple_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorF:Yew_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Magic_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Redwood_Longbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:longbow_shot"]
+        }
+      },
+      { "id": "melvorD:Normal_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorD:Oak_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorF:Willow_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorD:Maple_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorD:Yew_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorD:Magic_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
+      { "id": "melvorF:Redwood_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } }
     ],
     "monsters": [
       {
