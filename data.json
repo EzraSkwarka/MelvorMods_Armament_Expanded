@@ -1261,7 +1261,7 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "${attackDamageMaxValue0}% of your max hitgives you +${preHitEffect0modValue0}s Attack Interval until the end of the attack",
+        "description": "${attackDamageMaxValue0}% of your max hit gives you +${preHitEffect0modValue0}s Attack Interval until the end of the attack",
         "descriptionGenerator": "<damage><prehitEffect>"
       },
       {
