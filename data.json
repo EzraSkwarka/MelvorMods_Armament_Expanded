@@ -3,6 +3,142 @@
   "data": {
     "items": [
       {
+        "id": "Test_Potion",
+        "name": "Test Potion",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Potion",
+        "media": "assets/temp.png",
+        "modifiers": "",
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Firebomb_Charge_1",
+        "name": "Firebomb Charge (I)",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/temp.png",
+        "modifiers": "",
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Firebomb_Charge_2",
+        "name": "Firebomb Charge (II)",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/temp.png",
+        "modifiers": "",
+        "charges": 3,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Firebomb_Charge_3",
+        "name": "Firebomb Charge (III)",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/temp.png",
+        "modifiers": "",
+        "charges": 5,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Firebomb_Charge_4",
+        "name": "Firebomb Charge (IV)",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/temp.png",
+        "modifiers": "",
+        "charges": 10,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Explosive_Shell",
+        "name": "Explosive Casing",
+        "category": "Combat",
+        "type": "Crafting",
+        "media": "assets/temp.png",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Item"
+      },
+      {
+        "id": "Firebomb",
+        "name": "Firebomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2800
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": []
+      },
+      {
         "id": "Test_Weapon",
         "name": "Test Weapon",
         "category": "Combat",
@@ -781,6 +917,13 @@
       {
         "skillID": "melvorD:Smithing",
         "data": {
+          "categories": [
+            {
+              "id": "Tinkering",
+              "media": "assets/temp.png",
+              "name": "Tinkering"
+            }
+          ],
           "recipes": [
             {
               "id": "Bronze_Spear",
@@ -917,6 +1060,78 @@
                 {
                   "id": "melvorD:Mahogany_Logs",
                   "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Explosive_Shell",
+              "level": 10,
+              "productID": "Armament_Expanded:Explosive_Shell",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Steel_Bar",
+                  "quantity": 2
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Firebomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Firebomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Firebomb_Charge_1",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            }
+          ]
+        }
+      },
+      {
+        "skillID": "melvorD:Herblore",
+        "data": {
+          "categories": [
+            {
+              "id": "Explosives",
+              "media": "assets/temp.png",
+              "name": "Explosives"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Test_Potion",
+              "name": "Test Potion",
+              "level": 1,
+              "potionIDs": [
+                "Armament_Expanded:Firebomb_Charge_1",
+                "Armament_Expanded:Firebomb_Charge_1",
+                "Armament_Expanded:Firebomb_Charge_1",
+                "Armament_Expanded:Firebomb_Charge_1"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
                 }
               ],
               "gpCost": 0,
