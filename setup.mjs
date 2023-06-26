@@ -1,34 +1,15 @@
-export function setup(ctx) {
+export async function setup({ gameData, patch, loadTemplates, loadModule, onInterfaceAvailable, onInterfaceReady }) {
   console.warn("[AE] Loaded Armament Expanded");
+  await loadTemplates("src/template.html"); 
+  const { Tinkering } = await loadModule('src/tinkering.mjs'); 
 
-  ctx.onInterfaceReady((ctx) => {
-    modifyMonsterDrops();
+  console.log("[AE] Registering Skill");
+  game.registerSkill(game.registeredNamespaces.getNamespace('Armament_Expanded'), Tinkering); 
+
+  onInterfaceAvailable(async () => {
+      //const skill = game.skills.registeredObjects.get("Armament_Expanded:Tinkering");
+
+      console.log("[AE] Appending Page");
+      ui.createStatic('#tinkering-container-template', document.getElementById('main-container'));
   });
 }
-
-const modifyMonsterDrops = () => {
-  // addDropToLootTable("melvorD:Plant", ["Armament_Expanded:Bronze_Spear", 1, 1, 5]);
-};
-
-const addDropToLootTable = (monster, drop_array) => {
-  //Monster should be a string
-  //Drop Array should be [item, minQuantity, MaxQuantity, weight]
-  let lootTable = game.monsters.find((m) => m.id === monster)?.lootTable;
-  const drop = game.items.find((i) => i.id === drop_array[0]);
-
-  //Error Reporting
-  if (lootTable === undefined) console.warn("[AE] Failed to patch: " + item);
-  if (drop === undefined) console.warn("[AE] Failed to add " + drop_array[0] + " to " + item);
-
-  if (lootTable && drop) {
-    const loot = {
-      item: drop,
-      minQuantity: drop_array[1],
-      maxQuantity: drop_array[2],
-      weight: drop_array[3],
-    };
-
-    lootTable.totalWeight += loot.weight;
-    lootTable.drops.push(loot);
-  }
-};
