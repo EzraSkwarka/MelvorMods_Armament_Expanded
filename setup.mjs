@@ -6,8 +6,10 @@ export async function setup({ gameData, patch, loadTemplates, loadModule, onInte
   console.log("[AE] Registering Skill");
   game.registerSkill(game.registeredNamespaces.getNamespace('Armament_Expanded'), Tinkering); 
 
+  await gameData.addPackage('data.json')
+
   onInterfaceAvailable(async () => {
-      //const skill = game.skills.registeredObjects.get("Armament_Expanded:Tinkering");
+      const skill = game.skills.registeredObjects.get("Armament_Expanded:Tinkering");
 
       console.log("[AE] Appending Page");
       ui.createStatic('#tinkering-container-template', document.getElementById('main-container'));

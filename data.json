@@ -1,6 +1,21 @@
 {
   "$schema": "https://melvoridle.com/assets/schema/gameData.json",
   "data": {
+    "pages": [
+      {
+        "id": "Tinkering",
+        "media": "melvor:assets/media/main/adventure.svg",
+        "containerID": "tinkering-container",
+        "headerBgClass": "bg-combat",
+        "hasGameGuide": false,
+        "canBeDefault": true,
+        "customName": "Tinkering",
+        "skillSidebarCategoryID": "Non-Combat",
+        "skills": [
+          "Armament_Expanded:Tinkering"
+        ]
+      }
+    ],
     "items": [
       {
         "id": "Test_Weapon",
