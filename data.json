@@ -20,8 +20,8 @@
         "consumesOn": []
       },
       {
-        "id": "Firebomb_Charge_1",
-        "name": "Firebomb Charge (I)",
+        "id": "Firebomb_Charge",
+        "name": "Firebomb Charge",
         "category": "Crafting",
         "type": "Potion",
         "ignoreCompletion": true,
@@ -29,7 +29,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "itemType": "Potion",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Firebomb_Charge_Vial.png",
         "modifiers": "",
         "charges": 1,
         "tier": 0,
@@ -37,8 +37,8 @@
         "consumesOn": []
       },
       {
-        "id": "Firebomb_Charge_2",
-        "name": "Firebomb Charge (II)",
+        "id": "Bleed_Charge",
+        "name": "Bleed Charge",
         "category": "Crafting",
         "type": "Potion",
         "ignoreCompletion": true,
@@ -46,16 +46,16 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "itemType": "Potion",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Bleed_Charge_Vial.png",
         "modifiers": "",
-        "charges": 3,
+        "charges": 1,
         "tier": 0,
         "action": "melvorD:Smithing",
         "consumesOn": []
       },
       {
-        "id": "Firebomb_Charge_3",
-        "name": "Firebomb Charge (III)",
+        "id": "Poison_Charge",
+        "name": "Poison Charge",
         "category": "Crafting",
         "type": "Potion",
         "ignoreCompletion": true,
@@ -63,16 +63,16 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "itemType": "Potion",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Poison_Charge_Vial.png",
         "modifiers": "",
-        "charges": 5,
+        "charges": 1,
         "tier": 0,
         "action": "melvorD:Smithing",
         "consumesOn": []
       },
       {
-        "id": "Firebomb_Charge_4",
-        "name": "Firebomb Charge (IV)",
+        "id": "Stun_Charge",
+        "name": "Stun Charge",
         "category": "Crafting",
         "type": "Potion",
         "ignoreCompletion": true,
@@ -80,9 +80,60 @@
         "golbinRaidExclusive": false,
         "sellsFor": 0,
         "itemType": "Potion",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Stun_Charge_Vial.png",
         "modifiers": "",
-        "charges": 10,
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Sticky_Charge",
+        "name": "Sticky Charge",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/charges/Sticky_Charge_Vial.png",
+        "modifiers": "",
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Flashbang_Charge",
+        "name": "Flashbang Charge",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/charges/Flashbang_Charge_Vial.png",
+        "modifiers": "",
+        "charges": 1,
+        "tier": 0,
+        "action": "melvorD:Smithing",
+        "consumesOn": []
+      },
+      {
+        "id": "Combo_Charge",
+        "name": "Combo Charge",
+        "category": "Crafting",
+        "type": "Potion",
+        "ignoreCompletion": true,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 0,
+        "itemType": "Potion",
+        "media": "assets/charges/Combo_Charge_Vial.png",
+        "modifiers": "",
+        "charges": 1,
         "tier": 0,
         "action": "melvorD:Smithing",
         "consumesOn": []
@@ -121,7 +172,7 @@
         "equipmentStats": [
           {
             "key": "attackSpeed",
-            "value": 2800
+            "value": 2000
           },
           {
             "key": "rangedAttackBonus",
@@ -136,7 +187,202 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": []
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+      },
+      {
+        "id": "Venombomb",
+        "name": "Venombomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+      },
+      {
+        "id": "Fragbomb",
+        "name": "Fragbomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+      },
+      {
+        "id": "Flashbang",
+        "name": "Flashbang",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+      },
+      {
+        "id": "Webbomb",
+        "name": "Webbomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+      },
+      {
+        "id": "Stunbomb",
+        "name": "Stunbomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/temp.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
       },
       {
         "id": "Test_Weapon",
@@ -1094,7 +1340,7 @@
                   "quantity": 1
                 },
                 {
-                  "id": "Armament_Expanded:Firebomb_Charge_1",
+                  "id": "Armament_Expanded:Firebomb_Charge",
                   "quantity": 1
                 }
               ],
@@ -1110,20 +1356,20 @@
           "categories": [
             {
               "id": "Explosives",
-              "media": "assets/temp.png",
-              "name": "Explosives"
+              "media": "assets/charges/Firebomb_Charge_Vial.png",
+              "name": "Explosive Charges"
             }
           ],
           "recipes": [
             {
-              "id": "Test_Potion",
-              "name": "Test Potion",
-              "level": 1,
+              "id": "Firebomb_Charge",
+              "name": "Firebomb Charge",
+              "level": 20,
               "potionIDs": [
-                "Armament_Expanded:Firebomb_Charge_1",
-                "Armament_Expanded:Firebomb_Charge_1",
-                "Armament_Expanded:Firebomb_Charge_1",
-                "Armament_Expanded:Firebomb_Charge_1"
+                "Armament_Expanded:Firebomb_Charge",
+                "Armament_Expanded:Firebomb_Charge",
+                "Armament_Expanded:Firebomb_Charge",
+                "Armament_Expanded:Firebomb_Charge"
               ],
               "baseQuantity": 1,
               "baseExperience": 5,
@@ -1131,6 +1377,146 @@
               "itemCosts": [
                 {
                   "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Bleed_Charge",
+              "name": "Bleed Charge",
+              "level": 20,
+              "potionIDs": [
+                "Armament_Expanded:Bleed_Charge",
+                "Armament_Expanded:Bleed_Charge",
+                "Armament_Expanded:Bleed_Charge",
+                "Armament_Expanded:Bleed_Charge"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Poison_Charge",
+              "name": "Poison Charge",
+              "level": 20,
+              "potionIDs": [
+                "Armament_Expanded:Poison_Charge",
+                "Armament_Expanded:Poison_Charge",
+                "Armament_Expanded:Poison_Charge",
+                "Armament_Expanded:Poison_Charge"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Stun_Charge",
+              "name": "Stun Charge",
+              "level": 70,
+              "potionIDs": [
+                "Armament_Expanded:Stun_Charge",
+                "Armament_Expanded:Stun_Charge",
+                "Armament_Expanded:Stun_Charge",
+                "Armament_Expanded:Stun_Charge"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Sticky_Charge",
+              "name": "Sticky Charge",
+              "level": 50,
+              "potionIDs": [
+                "Armament_Expanded:Sticky_Charge",
+                "Armament_Expanded:Sticky_Charge",
+                "Armament_Expanded:Sticky_Charge",
+                "Armament_Expanded:Sticky_Charge"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Flashbang_Charge",
+              "name": "Flashbang Charge",
+              "level": 50,
+              "potionIDs": [
+                "Armament_Expanded:Flashbang_Charge",
+                "Armament_Expanded:Flashbang_Charge",
+                "Armament_Expanded:Flashbang_Charge",
+                "Armament_Expanded:Flashbang_Charge"
+              ],
+              "baseQuantity": 1,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Normal_Logs",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Combo_Charge",
+              "name": "Combo Charge",
+              "level": 90,
+              "potionIDs": [
+                "Armament_Expanded:Combo_Charge",
+                "Armament_Expanded:Combo_Charge",
+                "Armament_Expanded:Combo_Charge",
+                "Armament_Expanded:Combo_Charge"
+              ],
+              "baseQuantity": 3,
+              "baseExperience": 5,
+              "categoryID": "Armament_Expanded:Explosives",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Firebomb_Charge",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Bleed_Charge",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Poison_Charge",
                   "quantity": 1
                 }
               ],
@@ -1577,6 +1963,37 @@
         "lifesteal": 0,
         "description": "Deals no damage but incresses attack speed",
         "attackTypes": ["ranged"]
+      },
+      {
+        "id": "firebomb_dot",
+        "name": "Burn",
+        "defaultChance": 100,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Burn",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Target",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0} as damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<hitEffect>"
       }
     ]
   },
@@ -1890,13 +2307,48 @@
           "add": ["Armament_Expanded:longbow_shot"]
         }
       },
-      { "id": "melvorD:Normal_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorD:Oak_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorF:Willow_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorD:Maple_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorD:Yew_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorD:Magic_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } },
-      { "id": "melvorF:Redwood_Shortbow", "specialAttacks": { "add": ["Armament_Expanded:shortbow_shot"] } }
+      {
+        "id": "melvorD:Normal_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Oak_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorF:Willow_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Maple_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Yew_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorD:Magic_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      },
+      {
+        "id": "melvorF:Redwood_Shortbow",
+        "specialAttacks": {
+          "add": ["Armament_Expanded:shortbow_shot"]
+        }
+      }
     ],
     "monsters": [
       {
