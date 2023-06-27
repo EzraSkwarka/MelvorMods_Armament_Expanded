@@ -5,7 +5,7 @@ V0.3.3
   - Stunbomb: Stun the enemy for 3 rounds
   - Webbomb: Slow the enemy 20% for 10 rounds
   - Flashbang: Reduce the enemy's accuracy by 20% for 10 rounds
-  - Combobomb:Firebomb, Venombomb, and Fragbomb all in one
+  - Combobomb: Firebomb, Venombomb, and Fragbomb all in one
 
 V0.3.2
 - Added Weapon Skills:
