@@ -2347,7 +2347,7 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "",
+        "description": "Reduce the enemy's accuracy by 20% for 10 rounds",
         "descriptionGenerator": "<hitEffect>"
       }
     ]

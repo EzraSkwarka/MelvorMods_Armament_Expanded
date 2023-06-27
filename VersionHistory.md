@@ -1,6 +1,11 @@
 V0.3.3
 - Added New Weapon Type: Explosives
   - Craft Explosive charges using Herblore, and turn them into bombs via Smithing. Use them to debuff your foes
+  - Firebomb, Venombomb, Fragbomb: Apply a DOT for 10 turns
+  - Stunbomb: Stun the enemy for 3 rounds
+  - Webbomb: Slow the enemy 20% for 10 rounds
+  - Flashbang: Reduce the enemy's accuracy by 20% for 10 rounds
+  - Combobomb:Firebomb, Venombomb, and Fragbomb all in one
 
 V0.3.2
 - Added Weapon Skills:
