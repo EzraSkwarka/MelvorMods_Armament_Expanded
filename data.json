@@ -143,7 +143,7 @@
         "name": "Explosive Casing",
         "category": "Combat",
         "type": "Crafting",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Explosive_Casing.png",
         "ignoreCompletion": true,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
