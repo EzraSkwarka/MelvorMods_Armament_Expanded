@@ -1,3 +1,7 @@
+V0.3.3
+- Added New Weapon Type: Explosives
+  - Craft Explosive charges using Herblore, and turn them into bombs via Smithing. Use them to debuff your foes
+
 V0.3.2
 - Added Weapon Skills:
   - Daggers: 20% for double Damage

@@ -155,7 +155,7 @@
         "name": "Firebomb",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Firebomb.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -194,7 +194,7 @@
         "name": "Venombomb",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Poisonbomb.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -226,14 +226,14 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+        "specialAttacks": ["Armament_Expanded:venombomb_dot"]
       },
       {
         "id": "Fragbomb",
         "name": "Fragbomb",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Bloodbomb.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -265,14 +265,14 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+        "specialAttacks": ["Armament_Expanded:bleedbomb_dot"]
       },
       {
         "id": "Flashbang",
         "name": "Flashbang",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Flashbang.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -304,14 +304,14 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+        "specialAttacks": ["Armament_Expanded:flashbang"]
       },
       {
         "id": "Webbomb",
         "name": "Webbomb",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Stickybomb.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -343,14 +343,14 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+        "specialAttacks": ["Armament_Expanded:stickybomb"]
       },
       {
         "id": "Stunbomb",
         "name": "Stunbomb",
         "category": "Combat",
         "type": "Weapon",
-        "media": "assets/temp.png",
+        "media": "assets/charges/Stunbomb.png",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
@@ -382,7 +382,46 @@
         "attackType": "ranged",
         "ammoType": "ThrowingKnives",
         "ammoTypeRequired": "ThrowingKnives",
-        "specialAttacks": ["Armament_Expanded:firebomb_dot"]
+        "specialAttacks": ["Armament_Expanded:stunbomb"]
+      },
+      {
+        "id": "Combobomb",
+        "name": "Combobomb",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/charges/Stunbomb.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 5,
+        "validSlots": ["Quiver"],
+        "occupiesSlots": ["Weapon"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Ranged",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2000
+          },
+          {
+            "key": "rangedAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "rangedStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoType": "ThrowingKnives",
+        "ammoTypeRequired": "ThrowingKnives",
+        "specialAttacks": ["Armament_Expanded:combobomb_dot"]
       },
       {
         "id": "Test_Weapon",
@@ -1166,7 +1205,7 @@
           "categories": [
             {
               "id": "Tinkering",
-              "media": "assets/temp.png",
+              "media": "assets/charges/Explosive_Casing.png",
               "name": "Tinkering"
             }
           ],
@@ -1346,6 +1385,126 @@
               ],
               "gpCost": 0,
               "scCost": 0
+            },
+            {
+              "id": "Venombomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Venombomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Poison_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Fragbomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Fragbomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Bleed_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Stunbomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Stunbomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Stun_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Webbomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Webbomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Sticky_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Flashbang",
+              "level": 10,
+              "productID": "Armament_Expanded:Flashbang",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Flashbang_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Combobomb",
+              "level": 10,
+              "productID": "Armament_Expanded:Combobomb",
+              "baseQuantity": 10,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Tinkering",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Explosive_Shell",
+                  "quantity": 1
+                },
+                {
+                  "id": "Armament_Expanded:Combo_Charge",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
             }
           ]
         }
@@ -1372,12 +1531,12 @@
                 "Armament_Expanded:Firebomb_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 16,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorD:Fire_Rune",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1394,12 +1553,12 @@
                 "Armament_Expanded:Bleed_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 16,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorD:Blood_Rune",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1416,12 +1575,12 @@
                 "Armament_Expanded:Poison_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 16,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorD:Raw_Poison_Fish",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1438,12 +1597,12 @@
                 "Armament_Expanded:Stun_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 99,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorF:Havoc_Rune",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1460,12 +1619,12 @@
                 "Armament_Expanded:Sticky_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 41,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorD:Bowstring",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1482,12 +1641,12 @@
                 "Armament_Expanded:Flashbang_Charge"
               ],
               "baseQuantity": 1,
-              "baseExperience": 5,
+              "baseExperience": 41,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
-                  "id": "melvorD:Normal_Logs",
-                  "quantity": 1
+                  "id": "melvorD:Light_Rune",
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1504,20 +1663,20 @@
                 "Armament_Expanded:Combo_Charge"
               ],
               "baseQuantity": 3,
-              "baseExperience": 5,
+              "baseExperience": 180,
               "categoryID": "Armament_Expanded:Explosives",
               "itemCosts": [
                 {
                   "id": "Armament_Expanded:Firebomb_Charge",
-                  "quantity": 1
+                  "quantity": 2
                 },
                 {
                   "id": "Armament_Expanded:Bleed_Charge",
-                  "quantity": 1
+                  "quantity": 2
                 },
                 {
                   "id": "Armament_Expanded:Poison_Charge",
-                  "quantity": 1
+                  "quantity": 2
                 }
               ],
               "gpCost": 0,
@@ -1992,7 +2151,203 @@
         "attackCount": 1,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0} as damage over ${onHitEffect0duration}s",
+        "description": "has a ${onHitEffect0chance}% chance to inflict Burn that deals ${onHitEffect0DamageMaxValue0} damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "venombomb_dot",
+        "name": "Corrode",
+        "defaultChance": 100,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Poison",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Target",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "has a ${onHitEffect0chance}% chance to inflict Poison that deals ${onHitEffect0DamageMaxValue0} damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "bleedbomb_dot",
+        "name": "Bleed",
+        "defaultChance": 100,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Attacker",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "has a ${onHitEffect0chance}% chance to inflict Bleed that deals ${onHitEffect0DamageMaxValue0} damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "stickybomb",
+        "name": "Web",
+        "defaultChance": 10,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Slow",
+            "magnitude": 20,
+            "turns": 10
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "has a ${onHitEffect0chance}% chance to Slow the enemy for 10 rounds",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "stunbomb",
+        "name": "Stun",
+        "defaultChance": 100,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Stun",
+            "turns": 3,
+            "chance": 75,
+            "flavour": "Stun"
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+
+        "description": "has a ${onHitEffect0chance}% chance to Stun the enemy for 3 rounds",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "combobomb_dot",
+        "name": "Tripple Threat",
+        "defaultChance": 10,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Burn",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Target",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          },
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Bleed",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Target",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          },
+          {
+            "effectType": "Custom",
+            "type": "DOT",
+            "subtype": "Poison",
+            "procs": 10,
+            "interval": 500,
+            "damage": [
+              {
+                "character": "Target",
+                "roll": false,
+                "maxRoll": "Fixed",
+                "maxPercent": 10
+              }
+            ],
+            "chance": 75
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "has a ${onHitEffect0chance}% chance to inflict a Burn, a Poison, and/or a Bleed that each deal ${onHitEffect0DamageMaxValue0} damage over ${onHitEffect0duration}s",
+        "descriptionGenerator": "<hitEffect>"
+      },
+      {
+        "id": "flashbang",
+        "name": "Flashbang",
+        "defaultChance": 100,
+        "damage": [],
+        "prehitEffects": [],
+        "onhitEffects": [
+          {
+            "effectType": "Custom",
+            "type": "Modifier",
+            "turns": 10,
+            "character": "Target",
+            "countsOn": "Target",
+            "stacksToAdd": 1,
+            "maxStacks": 1,
+            "modifiers": {
+              "decreasedGlobalAccuracy": 20
+            },
+            "media": ""
+          }
+        ],
+        "cantMiss": false,
+        "attackCount": 1,
+        "attackInterval": 50,
+        "lifesteal": 0,
+        "description": "",
         "descriptionGenerator": "<hitEffect>"
       }
     ]
