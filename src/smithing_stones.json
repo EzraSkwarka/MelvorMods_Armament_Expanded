@@ -1,0 +1,257 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "items": [
+      {
+        "id": "Bronze_Smithing_Stone",
+        "name": "Bronze Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Iron_Smithing_Stone",
+        "name": "Iron Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Iron_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Steel_Smithing_Stone",
+        "name": "Steel Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Steel_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Mithril_Smithing_Stone",
+        "name": "Mithril Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Mithril_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Adamantite_Smithing_Stone",
+        "name": "Adamantite Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Adamantite_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Rune_Smithing_Stone",
+        "name": "Rune Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Rune_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Dragonite_Smithing_Stone",
+        "name": "Dragonite Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Dragonite_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      }
+    ],
+    "skillData": [
+      {
+        "skillID": "melvorD:Smithing",
+        "data": {
+          "categories": [
+            {
+              "id": "Stones",
+              "media": "assets/smithing_stones/Steel_Smithing_Stone.png",
+              "name": "Stones"
+            }
+          ],
+          "recipes": [
+            {
+              "id": "Bronze_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Bronze_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Bronze_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Iron_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Iron_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Iron_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Steel_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Steel_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Steel_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Mithril_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Mithril_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Mithril_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Adamantite_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Adamantite_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Adamantite_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Rune_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Rune_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Runite_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Dragonite_Smithing_Stone",
+              "level": 14,
+              "productID": "Armament_Expanded:Dragonite_Smithing_Stone",
+              "baseQuantity": 1,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "melvorD:Dragonite_Bar",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Silver_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

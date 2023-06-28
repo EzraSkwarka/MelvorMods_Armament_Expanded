@@ -1,5 +1,5 @@
 {
     "namespace": "Armament_Expanded",
     "setup": "setup.mjs",
-    "load": "data.json"
+    "load": ["src/data.json", "src/smithing_stones.json"]
   }
