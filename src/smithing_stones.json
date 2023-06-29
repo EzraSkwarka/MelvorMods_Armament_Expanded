@@ -191,6 +191,650 @@
         "action": "melvorD:Smithing"
       },
       {
+        "id": "Sharpened_Bronze_Spear",
+        "name": "Sharpened Bronze Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Bronze_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Iron_Spear",
+        "name": "Sharpened Iron Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Iron_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 29
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 29
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 29
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Steel_Spear",
+        "name": "Sharpened Steel Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Steel_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 48
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 48
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 46
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Mithril_Spear",
+        "name": "Sharpened Mithril Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Mithril_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 182,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 54
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 54
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 65
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Adamant_Spear",
+        "name": "Sharpened Adamant Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Adamant_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 252,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 77
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 77
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 87
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Rune_Spear",
+        "name": "Sharpened Rune Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Rune_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 105
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 105
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 155
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Sharpened_Dragon_Spear",
+        "name": "Sharpened Dragon Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Dragon_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 141
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 141
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 206
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Bronze_Spear",
+        "name": "Gilded Bronze Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Bronze_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 24
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Iron_Spear",
+        "name": "Gilded Iron Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Iron_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 36
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 36
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 38
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Steel_Spear",
+        "name": "Gilded Steel Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Steel_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 57
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 57
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 55
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Mithril_Spear",
+        "name": "Gilded Mithril Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Mithril_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 182,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 65
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 65
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 80
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Adamant_Spear",
+        "name": "Gilded Adamant Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Adamant_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 252,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 93
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 93
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 105
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Rune_Spear",
+        "name": "Gilded Rune Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Rune_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 126
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 126
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 186
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
+        "id": "Gilded_Dragon_Spear",
+        "name": "Gilded Dragon Spear",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "assets/spears/Dragon_Spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 170
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 170
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 248
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:spear_acc"]
+      },
+      {
         "id": "Sharpened_Bronze_Dagger",
         "name": "Sharpened Bronze Dagger",
         "category": "Combat",
@@ -2567,7 +3211,7 @@
           },
           {
             "key": "blockAttackBonus",
-            "value":14
+            "value": 14
           },
           {
             "key": "meleeStrengthBonus",
@@ -4827,6 +5471,250 @@
           }
         ],
         "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Scimitar"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Bronze_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Bronze_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Bronze_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Bronze_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Bronze_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Iron_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Steel_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Mithril_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamant_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Adamant_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamant_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Rune_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Rune_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Rune_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_Spear"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragon_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Spear",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_Spear",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragon_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Spear"],
         "isDowngrade": false
       }
     ]
