@@ -1388,7 +1388,7 @@
             },
             {
               "id": "Venombomb",
-              "level": 10,
+              "level": 20,
               "productID": "Armament_Expanded:Venombomb",
               "baseQuantity": 10,
               "baseExperience": 30,
@@ -1408,7 +1408,7 @@
             },
             {
               "id": "Fragbomb",
-              "level": 10,
+              "level": 20,
               "productID": "Armament_Expanded:Fragbomb",
               "baseQuantity": 10,
               "baseExperience": 30,
@@ -1428,7 +1428,7 @@
             },
             {
               "id": "Stunbomb",
-              "level": 10,
+              "level": 70,
               "productID": "Armament_Expanded:Stunbomb",
               "baseQuantity": 10,
               "baseExperience": 30,
@@ -1448,7 +1448,7 @@
             },
             {
               "id": "Webbomb",
-              "level": 10,
+              "level": 50,
               "productID": "Armament_Expanded:Webbomb",
               "baseQuantity": 10,
               "baseExperience": 30,
@@ -1468,7 +1468,7 @@
             },
             {
               "id": "Flashbang",
-              "level": 10,
+              "level": 50,
               "productID": "Armament_Expanded:Flashbang",
               "baseQuantity": 10,
               "baseExperience": 30,
@@ -1488,7 +1488,7 @@
             },
             {
               "id": "Combobomb",
-              "level": 10,
+              "level": 90,
               "productID": "Armament_Expanded:Combobomb",
               "baseQuantity": 10,
               "baseExperience": 30,
