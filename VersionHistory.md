@@ -1,3 +1,8 @@
+V0.3.5
+- Smithing Stones: If I can add trim to my armor sets, why can't I sharpen my weapons? Well now you can!
+- Each base game weapon type (Bronze, Iron, Steel etc.) now has two corresponding 'Smithing Stones' that you can use to upgrade the Melee weapons to Sharpened or Gilded which confer a 1.25x and 1.50x stat boost to the weapon!
+- Currently in Beta 
+
 V0.3.4
 - Better Spear Assets
 - Added in the Black Spear

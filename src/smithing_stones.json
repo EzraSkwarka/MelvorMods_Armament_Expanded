@@ -877,7 +877,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Sharpened_Bronze_Sword",
@@ -922,7 +923,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Bronze_Battleaxe",
@@ -1012,7 +1014,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
 
       {
@@ -1058,7 +1061,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Sharpened_Iron_Sword",
@@ -1103,7 +1107,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Iron_Battleaxe",
@@ -1193,7 +1198,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Steel_Dagger",
@@ -1283,7 +1289,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Steel_Battleaxe",
@@ -1373,7 +1380,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Mithril_Dagger",
@@ -1418,7 +1426,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Sharpened_Mithril_Sword",
@@ -1463,7 +1472,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Mithril_Battleaxe",
@@ -1553,7 +1563,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Adamant_Dagger",
@@ -1643,7 +1654,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Adamant_Battleaxe",
@@ -1733,7 +1745,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Rune_Dagger",
@@ -1778,7 +1791,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Sharpened_Rune_Sword",
@@ -1823,7 +1837,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Rune_Battleaxe",
@@ -1913,7 +1928,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Dragon_Dagger",
@@ -1958,7 +1974,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Sharpened_Dragon_Sword",
@@ -2003,7 +2020,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Sharpened_Dragon_Battleaxe",
@@ -2093,7 +2111,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Sharpened_Bronze_Scimitar",
@@ -2138,7 +2157,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Iron_Scimitar",
@@ -2183,7 +2203,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Steel_Scimitar",
@@ -2228,7 +2249,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Mithril_Scimitar",
@@ -2273,7 +2295,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Adamant_Scimitar",
@@ -2318,7 +2341,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Rune_Scimitar",
@@ -2363,7 +2387,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Sharpened_Dragon_Scimitar",
@@ -2408,7 +2433,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Bronze_Dagger",
@@ -2453,7 +2479,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Bronze_Sword",
@@ -2498,7 +2525,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Bronze_Battleaxe",
@@ -2588,7 +2616,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
 
       {
@@ -2634,7 +2663,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Iron_Sword",
@@ -2679,7 +2709,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Iron_Battleaxe",
@@ -2769,7 +2800,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Steel_Dagger",
@@ -2814,7 +2846,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Steel_Sword",
@@ -2859,7 +2892,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Steel_Battleaxe",
@@ -2949,7 +2983,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Mithril_Dagger",
@@ -2994,7 +3029,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Mithril_Sword",
@@ -3039,7 +3075,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Mithril_Battleaxe",
@@ -3129,7 +3166,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Adamant_Dagger",
@@ -3174,7 +3212,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Adamant_Sword",
@@ -3219,7 +3258,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Adamant_Battleaxe",
@@ -3309,7 +3349,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Rune_Dagger",
@@ -3354,7 +3395,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Rune_Sword",
@@ -3399,7 +3441,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Rune_Battleaxe",
@@ -3489,7 +3532,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Dragon_Dagger",
@@ -3534,7 +3578,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:dagger_crit"]
       },
       {
         "id": "Gilded_Dragon_Sword",
@@ -3579,7 +3624,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:sword_dr_boost"]
       },
       {
         "id": "Gilded_Dragon_Battleaxe",
@@ -3669,7 +3715,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:2h_smash"]
       },
       {
         "id": "Gilded_Bronze_Scimitar",
@@ -3714,7 +3761,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Iron_Scimitar",
@@ -3759,7 +3807,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Steel_Scimitar",
@@ -3804,7 +3853,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Mithril_Scimitar",
@@ -3849,7 +3899,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Adamant_Scimitar",
@@ -3894,7 +3945,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Rune_Scimitar",
@@ -3939,7 +3991,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       },
       {
         "id": "Gilded_Dragon_Scimitar",
@@ -3984,7 +4037,8 @@
           }
         ],
         "itemType": "Weapon",
-        "attackType": "melee"
+        "attackType": "melee",
+        "specialAttacks": ["Armament_Expanded:scimitar_fast"]
       }
     ],
     "skillData": [
@@ -5479,7 +5533,7 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Bronze_Spear",
+            "id": "Armament_Expanded:Bronze_Spear",
             "quantity": 1
           },
           {
@@ -5487,7 +5541,7 @@
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Bronze_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Bronze_Spear"],
         "isDowngrade": false
       },
       {
@@ -5514,7 +5568,7 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Iron_Spear",
+            "id": "Armament_Expanded:Iron_Spear",
             "quantity": 1
           },
           {
@@ -5522,7 +5576,7 @@
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Iron_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Iron_Spear"],
         "isDowngrade": false
       },
       {
@@ -5549,7 +5603,7 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Steel_Spear",
+            "id": "Armament_Expanded:Steel_Spear",
             "quantity": 1
           },
           {
@@ -5557,7 +5611,7 @@
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Steel_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Steel_Spear"],
         "isDowngrade": false
       },
       {
@@ -5584,7 +5638,7 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Mithril_Spear",
+            "id": "Armament_Expanded:Mithril_Spear",
             "quantity": 1
           },
           {
@@ -5592,7 +5646,7 @@
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Mithril_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Mithril_Spear"],
         "isDowngrade": false
       },
       {
@@ -5619,15 +5673,15 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Adamant_Spear",
+            "id": "Armament_Expanded:Adamant_Spear",
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Adamant_Smithing_Stone",
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Adamant_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Adamant_Spear"],
         "isDowngrade": false
       },
       {
@@ -5640,7 +5694,7 @@
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Gilded_Adamant_Smithing_Stone",
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
             "quantity": 10
           }
         ],
@@ -5654,15 +5708,15 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Rune_Spear",
+            "id": "Armament_Expanded:Rune_Spear",
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Rune_Smithing_Stone",
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Rune_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Rune_Spear"],
         "isDowngrade": false
       },
       {
@@ -5675,7 +5729,7 @@
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Gilded_Rune_Smithing_Stone",
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
             "quantity": 10
           }
         ],
@@ -5689,15 +5743,15 @@
         "scCost": 0,
         "itemCosts": [
           {
-            "id": "melvorD:Dragon_Spear",
+            "id": "Armament_Expanded:Dragon_Spear",
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Dragon_Smithing_Stone",
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
             "quantity": 10
           }
         ],
-        "rootItemIDs": ["melvorD:Dragon_Spear"],
+        "rootItemIDs": ["Armament_Expanded:Dragon_Spear"],
         "isDowngrade": false
       },
       {
@@ -5710,7 +5764,7 @@
             "quantity": 1
           },
           {
-            "id": "Armament_Expanded:Gilded_Dragon_Smithing_Stone",
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
             "quantity": 10
           }
         ],
