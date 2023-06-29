@@ -1252,7 +1252,7 @@
             },
             {
               "id": "Steel_Spear",
-              "level": 23,
+              "level": 38,
               "productID": "Armament_Expanded:Steel_Spear",
               "baseQuantity": 1,
               "baseExperience": 1,
@@ -1272,7 +1272,7 @@
             },
             {
               "id": "Mithril_Spear",
-              "level": 23,
+              "level": 53,
               "productID": "Armament_Expanded:Mithril_Spear",
               "baseQuantity": 1,
               "baseExperience": 1,
@@ -1292,7 +1292,7 @@
             },
             {
               "id": "Adamant_Spear",
-              "level": 23,
+              "level": 68,
               "productID": "Armament_Expanded:Adamant_Spear",
               "baseQuantity": 1,
               "baseExperience": 1,
@@ -1312,7 +1312,7 @@
             },
             {
               "id": "Rune_Spear",
-              "level": 23,
+              "level": 83,
               "productID": "Armament_Expanded:Rune_Spear",
               "baseQuantity": 1,
               "baseExperience": 1,
@@ -1332,7 +1332,7 @@
             },
             {
               "id": "Dragon_Spear",
-              "level": 23,
+              "level": 98,
               "productID": "Armament_Expanded:Dragon_Spear",
               "baseQuantity": 1,
               "baseExperience": 1,
