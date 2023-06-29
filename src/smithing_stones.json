@@ -3640,1162 +3640,1195 @@
       }
     ],
     "itemUpgrades": [
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Bronze_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Bronze_Dagger"
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Bronze_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Bronze_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Bronze_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Bronze_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Bronze_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Bronze_Dagger"],
         "isDowngrade": false
-        },
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Bronze_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Bronze_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Bronze_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Bronze_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Bronze_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Bronze_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Bronze_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Bronze_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Bronze_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Bronze_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Bronze_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Bronze_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Bronze_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Bronze_Battleaxe"],
         "isDowngrade": false
-        },
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Bronze_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Bronze_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Bronze_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Bronze_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Bronze_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Bronze_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Bronze_2H_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Iron_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Iron_Dagger"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Iron_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Iron_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Iron_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_Dagger"],
         "isDowngrade": false
-        },
-    
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Iron_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Iron_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Iron_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Iron_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Iron_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Iron_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Iron_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Iron_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Iron_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Iron_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_Battleaxe"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Iron_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Iron_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Iron_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Iron_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Iron_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Iron_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_2H_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Iron_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Iron_Scimitar"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Iron_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Iron_Scimitar"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Iron_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Iron_Scimitar"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Iron_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Iron_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Iron_Scimitar"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Mithril_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Mithril_Dagger"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_Dagger",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Steel_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Mithril_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Mithril_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_Dagger",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_Dagger"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Mithril_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Mithril_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_Sword",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Steel_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Mithril_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Mithril_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_Sword",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Mithril_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Mithril_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_Battleaxe",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Steel_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Mithril_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_Battleaxe",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_Battleaxe"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Mithril_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Mithril_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_Scimitar",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Steel_Scimitar"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Mithril_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_Scimitar",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_Scimitar"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Mithril_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Mithril_Scimitar"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Steel_2H_Sword",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Steel_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Steel_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Mithril_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Mithril_Scimitar"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Steel_2H_Sword",
+        "gpCpst": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Steel_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Steel_2H_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Adamant_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Adamant_Dagger"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Mithril_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Adamant_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Adamant_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_Dagger"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Adamant_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Adamant_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Mithril_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Adamant_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Adamant_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Adamant_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Adamant_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Mithril_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Adamant_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_Battleaxe"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Adamant_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Adamant_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Mithril_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Adamant_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_2H_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Adamant_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Adamant_Scimitar"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Mithril_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Mithril_Scimitar"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Adamant_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Adamant_Scimitar"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Mithril_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Mithril_Scimitar"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Rune_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Rune_Dagger"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Adamant_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Rune_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Rune_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_Dagger"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Rune_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Rune_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Adamant_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Rune_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Rune_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_Sword"],
         "isDowngrade": false
-        },
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Rune_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Rune_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Adamant_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Rune_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Rune_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_Battleaxe"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Rune_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Rune_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Adamant_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Rune_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Rune_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Rune_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_2H_Sword"],
         "isDowngrade": false
-        },
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Rune_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Rune_Scimitar"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Adamant_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Adamant_Scimitar"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Rune_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Rune_Scimitar"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Adamant_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Adamant_Scimitar"],
         "isDowngrade": false
-        },
-    
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Dragon_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Dragon_Dagger"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Rune_Dagger"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Dagger",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Dragon_Dagger",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Dragon_Dagger"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_Dagger"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Dragon_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Dragon_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Rune_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Dragon_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Dragon_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Dragon_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Dragon_Battleaxe"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Rune_Battleaxe"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Battleaxe",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Dragon_Battleaxe"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_Battleaxe"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Dragon_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Dragon_2H_Sword"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Rune_2H_Sword"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_2H_Sword",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Dragon_2H_Sword"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_2H_Sword"],
         "isDowngrade": false
-        },
-    
-    
-        {
-            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "melvorD:Dragon_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "melvorD:Dragon_Scimitar"
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Rune_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["melvorD:Rune_Scimitar"],
         "isDowngrade": false
-        },
-        {
-            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Scimitar",
-            "gpCost": 0,
-            "scCost": 0,
-            "itemCosts": [
-                {
-                    "id": "Armament_Expanded:Sharpened_Dragon_Scimitar",
-                    "quantity": 1
-                },
-                {
-                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
-                    "quantity": 10
-                }
-            ],
-        "rootItemIDs": [
-            "Armament_Expanded:Sharpened_Dragon_Scimitar"
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Rune_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Rune_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+            "quantity": 10
+          }
         ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Rune_Scimitar"],
         "isDowngrade": false
-        }
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_Dagger"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Dagger",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_Dagger",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Dagger"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_Sword"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Sword"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_Battleaxe"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Battleaxe",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Battleaxe"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_2H_Sword"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_2H_Sword",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_2H_Sword"],
+        "isDowngrade": false
+      },
+
+      {
+        "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "melvorD:Dragon_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["melvorD:Dragon_Scimitar"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Scimitar",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Sharpened_Dragon_Scimitar",
+            "quantity": 1
+          },
+          {
+            "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+            "quantity": 10
+          }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sharpened_Dragon_Scimitar"],
+        "isDowngrade": false
+      }
     ]
   }
 }
