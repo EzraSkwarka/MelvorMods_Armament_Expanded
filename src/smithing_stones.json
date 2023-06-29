@@ -1793,19 +1793,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 7
+            "value": 10
           },
           {
             "key": "slashAttackBonus",
-            "value": 2
+            "value": 3
           },
           {
             "key": "blockAttackBonus",
-            "value": 7
+            "value": 10
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 3
+            "value": 5
           }
         ],
         "itemType": "Weapon",
@@ -1838,19 +1838,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 9
+            "value": 14
           },
           {
             "key": "slashAttackBonus",
-            "value": 2
+            "value": 3
           },
           {
             "key": "blockAttackBonus",
-            "value": 1
+            "value": 2
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 5
+            "value": 8
           }
         ],
         "itemType": "Weapon",
@@ -1887,15 +1887,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "blockAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 16
+            "value": 24
           }
         ],
         "itemType": "Weapon",
@@ -1932,15 +1932,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 18
+            "value": 27
           },
           {
             "key": "blockAttackBonus",
-            "value": 18
+            "value": 27
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 18
+            "value": 27
           }
         ],
         "itemType": "Weapon",
@@ -1974,19 +1974,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "slashAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "blockAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 4
+            "value": 6
           }
         ],
         "itemType": "Weapon",
@@ -2019,19 +2019,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 11
+            "value": 17
           },
           {
             "key": "slashAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "blockAttackBonus",
-            "value": 2
+            "value": 3
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 7
+            "value": 11
           }
         ],
         "itemType": "Weapon",
@@ -2068,15 +2068,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 4
+            "value": 6
           },
           {
             "key": "blockAttackBonus",
-            "value": 4
+            "value": 6
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 23
+            "value": 35
           }
         ],
         "itemType": "Weapon",
@@ -2113,15 +2113,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 26
+            "value": 39
           },
           {
             "key": "blockAttackBonus",
-            "value": 26
+            "value": 39
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 25
+            "value": 38
           }
         ],
         "itemType": "Weapon",
@@ -2154,19 +2154,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 13
+            "value": 20
           },
           {
             "key": "slashAttackBonus",
-            "value": 4
+            "value": 6
           },
           {
             "key": "blockAttackBonus",
-            "value": 13
+            "value": 20
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 7
+            "value": 11
           }
         ],
         "itemType": "Weapon",
@@ -2199,19 +2199,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 16
+            "value": 24
           },
           {
             "key": "slashAttackBonus",
-            "value": 6
+            "value": 9
           },
           {
             "key": "blockAttackBonus",
-            "value": 4
+            "value": 6
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 12
+            "value": 18
           }
         ],
         "itemType": "Weapon",
@@ -2248,15 +2248,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "blockAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 35
+            "value": 53
           }
         ],
         "itemType": "Weapon",
@@ -2293,15 +2293,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 40
+            "value": 60
           },
           {
             "key": "blockAttackBonus",
-            "value": 40
+            "value": 60
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 39
+            "value": 59
           }
         ],
         "itemType": "Weapon",
@@ -2334,19 +2334,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 18
+            "value": 27
           },
           {
             "key": "slashAttackBonus",
-            "value": 5
+            "value": 8
           },
           {
             "key": "blockAttackBonus",
-            "value": 18
+            "value": 27
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 10
+            "value": 15
           }
         ],
         "itemType": "Weapon",
@@ -2379,19 +2379,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 20
+            "value": 30
           },
           {
             "key": "slashAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "blockAttackBonus",
-            "value": 6
+            "value": 9
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 17
+            "value": 26
           }
         ],
         "itemType": "Weapon",
@@ -2428,15 +2428,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 11
+            "value": 18
           },
           {
             "key": "blockAttackBonus",
-            "value": 11
+            "value": 18
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 51
+            "value": 76
           }
         ],
         "itemType": "Weapon",
@@ -2473,15 +2473,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 45
+            "value": 67
           },
           {
             "key": "blockAttackBonus",
-            "value": 45
+            "value": 67
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 55
+            "value": 67
           }
         ],
         "itemType": "Weapon",
@@ -2514,19 +2514,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 22
+            "value": 33
           },
           {
             "key": "slashAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "blockAttackBonus",
-            "value": 22
+            "value": 33
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 14
+            "value": 21
           }
         ],
         "itemType": "Weapon",
@@ -2559,19 +2559,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 27
+            "value": 41
           },
           {
             "key": "slashAttackBonus",
-            "value": 13
+            "value": 20
           },
           {
             "key": "blockAttackBonus",
-            "value": 9
+            "value":14
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 24
+            "value": 36
           }
         ],
         "itemType": "Weapon",
@@ -2608,15 +2608,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 16
+            "value": 24
           },
           {
             "key": "blockAttackBonus",
-            "value": 16
+            "value": 24
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 72
+            "value": 108
           }
         ],
         "itemType": "Weapon",
@@ -2653,15 +2653,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 64
+            "value": 96
           },
           {
             "key": "blockAttackBonus",
-            "value": 64
+            "value": 96
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 79
+            "value": 119
           }
         ],
         "itemType": "Weapon",
@@ -2694,19 +2694,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 35
+            "value": 53
           },
           {
             "key": "slashAttackBonus",
-            "value": 12
+            "value": 18
           },
           {
             "key": "blockAttackBonus",
-            "value": 35
+            "value": 53
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 24
+            "value": 36
           }
         ],
         "itemType": "Weapon",
@@ -2739,19 +2739,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 40
+            "value": 60
           },
           {
             "key": "slashAttackBonus",
-            "value": 19
+            "value": 29
           },
           {
             "key": "blockAttackBonus",
-            "value": 15
+            "value": 23
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 39
+            "value": 59
           }
         ],
         "itemType": "Weapon",
@@ -2788,15 +2788,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 24
+            "value": 36
           },
           {
             "key": "blockAttackBonus",
-            "value": 24
+            "value": 36
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 112
+            "value": 168
           }
         ],
         "itemType": "Weapon",
@@ -2833,15 +2833,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 86
+            "value": 129
           },
           {
             "key": "blockAttackBonus",
-            "value": 86
+            "value": 129
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 126
+            "value": 189
           }
         ],
         "itemType": "Weapon",
@@ -2874,19 +2874,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 50
+            "value": 75
           },
           {
             "key": "slashAttackBonus",
-            "value": 25
+            "value": 38
           },
           {
             "key": "blockAttackBonus",
-            "value": 50
+            "value": 75
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 40
+            "value": 60
           }
         ],
         "itemType": "Weapon",
@@ -2919,19 +2919,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 67
+            "value": 101
           },
           {
             "key": "slashAttackBonus",
-            "value": 41
+            "value": 62
           },
           {
             "key": "blockAttackBonus",
-            "value": 26
+            "value": 39
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 63
+            "value": 95
           }
         ],
         "itemType": "Weapon",
@@ -2968,15 +2968,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 35
+            "value": 53
           },
           {
             "key": "blockAttackBonus",
-            "value": 35
+            "value": 53
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 149
+            "value": 224
           }
         ],
         "itemType": "Weapon",
@@ -3013,15 +3013,15 @@
           },
           {
             "key": "slashAttackBonus",
-            "value": 115
+            "value": 173
           },
           {
             "key": "blockAttackBonus",
-            "value": 115
+            "value": 173
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 167
+            "value": 251
           }
         ],
         "itemType": "Weapon",
@@ -3054,19 +3054,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 1
+            "value": 2
           },
           {
             "key": "slashAttackBonus",
-            "value": 7
+            "value": 11
           },
           {
             "key": "blockAttackBonus",
-            "value": 1
+            "value": 2
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 6
+            "value": 9
           }
         ],
         "itemType": "Weapon",
@@ -3099,19 +3099,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 2
+            "value": 3
           },
           {
             "key": "slashAttackBonus",
-            "value": 10
+            "value": 15
           },
           {
             "key": "blockAttackBonus",
-            "value": 2
+            "value": 3
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 9
+            "value": 14
           }
         ],
         "itemType": "Weapon",
@@ -3144,19 +3144,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "slashAttackBonus",
-            "value": 15
+            "value": 22
           },
           {
             "key": "blockAttackBonus",
-            "value": 3
+            "value": 5
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 14
+            "value": 21
           }
         ],
         "itemType": "Weapon",
@@ -3189,19 +3189,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 5
+            "value": 8
           },
           {
             "key": "slashAttackBonus",
-            "value": 21
+            "value": 32
           },
           {
             "key": "blockAttackBonus",
-            "value": 5
+            "value": 8
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 20
+            "value": 30
           }
         ],
         "itemType": "Weapon",
@@ -3234,19 +3234,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 6
+            "value": 9
           },
           {
             "key": "slashAttackBonus",
-            "value": 29
+            "value": 44
           },
           {
             "key": "blockAttackBonus",
-            "value": 6
+            "value": 9
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 28
+            "value": 42
           }
         ],
         "itemType": "Weapon",
@@ -3279,19 +3279,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 7
+            "value": 11
           },
           {
             "key": "slashAttackBonus",
-            "value": 45
+            "value": 68
           },
           {
             "key": "blockAttackBonus",
-            "value": 7
+            "value": 11
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 44
+            "value": 66
           }
         ],
         "itemType": "Weapon",
@@ -3324,19 +3324,19 @@
           },
           {
             "key": "stabAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "slashAttackBonus",
-            "value": 67
+            "value": 101
           },
           {
             "key": "blockAttackBonus",
-            "value": 8
+            "value": 12
           },
           {
             "key": "meleeStrengthBonus",
-            "value": 66
+            "value": 99
           }
         ],
         "itemType": "Weapon",
