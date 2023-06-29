@@ -71,8 +71,8 @@
         "action": "melvorD:Smithing"
       },
       {
-        "id": "Rune_Smithing_Stone",
-        "name": "Rune Smithing Stone",
+        "id": "Runite_Smithing_Stone",
+        "name": "Runite Smithing Stone",
         "category": "Smithing",
         "type": "Item",
         "ignoreCompletion": false,
@@ -80,7 +80,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 2,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Rune_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Runite_Smithing_Stone.png",
         "action": "melvorD:Smithing"
       },
       {
@@ -95,6 +95,3252 @@
         "itemType": "Item",
         "media": "assets/smithing_stones/Dragonite_Smithing_Stone.png",
         "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Bronze_Smithing_Stone",
+        "name": "Gilded Bronze Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Bronze_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Iron_Smithing_Stone",
+        "name": "Gilded Iron Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Iron_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Steel_Smithing_Stone",
+        "name": "Gilded Steel Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Steel_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Mithril_Smithing_Stone",
+        "name": "Gilded Mithril Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Mithril_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Adamantite_Smithing_Stone",
+        "name": "Gilded Adamantite Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Adamantite_Smithing_Stone.png",
+
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Runite_Smithing_Stone",
+        "name": "Gilded Runite Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Runite_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Gilded_Dragonite_Smithing_Stone",
+        "name": "Gilded Dragonite Smithing Stone",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Gilded_Dragonite_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Sharpened_Bronze_Dagger",
+        "name": "Sharpened Bronze Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 3
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Bronze_Sword",
+        "name": "Sharpened Bronze Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 5
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Bronze_Battleaxe",
+        "name": "Sharpened Bronze Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 16
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Bronze_2H_Sword",
+        "name": "Sharpened Bronze 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 18
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+
+      {
+        "id": "Sharpened_Iron_Dagger",
+        "name": "Sharpened Iron Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 4
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Iron_Sword",
+        "name": "Sharpened Iron Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 7
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Iron_Battleaxe",
+        "name": "Sharpened Iron Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 23
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Iron_2H_Sword",
+        "name": "Sharpened Iron 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 25
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Steel_Dagger",
+        "name": "Sharpened Steel Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 7
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Steel_Sword",
+        "name": "Sharpened Steel Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 12
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Steel_Battleaxe",
+        "name": "Sharpened Steel Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 35
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Steel_2H_Sword",
+        "name": "Sharpened Steel 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 39
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Mithril_Dagger",
+        "name": "Sharpened Mithril Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 10
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Mithril_Sword",
+        "name": "Sharpened Mithril Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 17
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Mithril_Battleaxe",
+        "name": "Sharpened Mithril Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 179,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 51
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Mithril_2H_Sword",
+        "name": "Sharpened Mithril 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 182,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 55
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Adamant_Dagger",
+        "name": "Sharpened Adamant Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 80,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 22
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 22
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 14
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Adamant_Sword",
+        "name": "Sharpened Adamant Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 27
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 24
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Adamant_Battleaxe",
+        "name": "Sharpened Adamant Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 242,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 72
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Adamant_2H_Sword",
+        "name": "Sharpened Adamant 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 252,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 64
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 64
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 79
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Rune_Dagger",
+        "name": "Sharpened Rune Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 140,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 24
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Rune_Sword",
+        "name": "Sharpened Rune Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 145,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 19
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 39
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Rune_Battleaxe",
+        "name": "Sharpened Rune Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 401,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 112
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Rune_2H_Sword",
+        "name": "Sharpened Rune 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 86
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 86
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 126
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Dragon_Dagger",
+        "name": "Sharpened Dragon Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 645,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 25
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 40
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Dragon_Sword",
+        "name": "Sharpened Dragon Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 665,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 67
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 41
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 63
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Dragon_Battleaxe",
+        "name": "Sharpened Dragon Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2044,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 149
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Dragon_2H_Sword",
+        "name": "Sharpened Dragon 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 115
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 115
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 167
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Bronze_Scimitar",
+        "name": "Sharpened Bronze Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 6
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Iron_Scimitar",
+        "name": "Sharpened Iron Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 9
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Steel_Scimitar",
+        "name": "Sharpened Steel Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 14
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Mithril_Scimitar",
+        "name": "Sharpened Mithril Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 21
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Adamant_Scimitar",
+        "name": "Sharpened Adamant Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 29
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 28
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Rune_Scimitar",
+        "name": "Sharpened Rune Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 145,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 44
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sharpened_Dragon_Scimitar",
+        "name": "Sharpened Dragon Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 505,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 67
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 66
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Bronze_Dagger",
+        "name": "Gilded Bronze Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 3
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Bronze_Sword",
+        "name": "Gilded Bronze Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 5
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Bronze_Battleaxe",
+        "name": "Gilded Bronze Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 16
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Bronze_2H_Sword",
+        "name": "Gilded Bronze 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 18
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+
+      {
+        "id": "Gilded_Iron_Dagger",
+        "name": "Gilded Iron Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 4
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Iron_Sword",
+        "name": "Gilded Iron Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 7
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Iron_Battleaxe",
+        "name": "Gilded Iron Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 23
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Iron_2H_Sword",
+        "name": "Gilded Iron 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 21,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 25
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Steel_Dagger",
+        "name": "Gilded Steel Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 7
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Steel_Sword",
+        "name": "Gilded Steel Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 4
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 12
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Steel_Battleaxe",
+        "name": "Gilded Steel Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 35
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Steel_2H_Sword",
+        "name": "Gilded Steel 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 39
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Mithril_Dagger",
+        "name": "Gilded Mithril Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 18
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 10
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Mithril_Sword",
+        "name": "Gilded Mithril Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 20
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 17
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Mithril_Battleaxe",
+        "name": "Gilded Mithril Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 179,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 11
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 51
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Mithril_2H_Sword",
+        "name": "Gilded Mithril 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 182,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 55
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Adamant_Dagger",
+        "name": "Gilded Adamant Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 80,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 22
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 22
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 14
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Adamant_Sword",
+        "name": "Gilded Adamant Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 27
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 13
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 9
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 24
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Adamant_Battleaxe",
+        "name": "Gilded Adamant Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 242,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 16
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 72
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Adamant_2H_Sword",
+        "name": "Gilded Adamant 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 252,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 64
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 64
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 79
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Rune_Dagger",
+        "name": "Gilded Rune Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 140,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 12
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 24
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Rune_Sword",
+        "name": "Gilded Rune Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 145,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 40
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 19
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 39
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Rune_Battleaxe",
+        "name": "Gilded Rune Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 401,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 24
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 112
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Rune_2H_Sword",
+        "name": "Gilded Rune 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 430,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 86
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 86
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 126
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Dragon_Dagger",
+        "name": "Gilded Dragon Dagger",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_dagger_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 645,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2200
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 25
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 50
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 40
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Dragon_Sword",
+        "name": "Gilded Dragon Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 665,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 67
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 41
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 26
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 63
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Dragon_Battleaxe",
+        "name": "Gilded Dragon Battleaxe",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_battleaxe_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2044,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3100
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 35
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 149
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Dragon_2H_Sword",
+        "name": "Gilded Dragon 2H Sword",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2250,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 3600
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": -4
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 115
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 115
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 167
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Bronze_Scimitar",
+        "name": "Gilded Bronze Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_bronze.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1,
+        "tier": "bronze",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 1
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 6
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Iron_Scimitar",
+        "name": "Gilded Iron Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_iron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 8,
+        "tier": "iron",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 1
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 10
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 2
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 9
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Steel_Scimitar",
+        "name": "Gilded Steel Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_steel.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 10,
+        "tier": "steel",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 5
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 15
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 3
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 14
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Mithril_Scimitar",
+        "name": "Gilded Mithril Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_mithril.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 68,
+        "tier": "mithril",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 20
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 21
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 5
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 20
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Adamant_Scimitar",
+        "name": "Gilded Adamant Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_adamant.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 85,
+        "tier": "adamant",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 30
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 29
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 6
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 28
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Rune_Scimitar",
+        "name": "Gilded Rune Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_rune.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 145,
+        "tier": "rune",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 40
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 45
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 7
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 44
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Gilded_Dragon_Scimitar",
+        "name": "Gilded Dragon Scimitar",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_scimitar_dragon.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 505,
+        "tier": "dragon",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [
+          {
+            "type": "SkillLevel",
+            "skillID": "melvorD:Attack",
+            "level": 60
+          }
+        ],
+        "equipmentStats": [
+          {
+            "key": "attackSpeed",
+            "value": 2400
+          },
+          {
+            "key": "stabAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "slashAttackBonus",
+            "value": 67
+          },
+          {
+            "key": "blockAttackBonus",
+            "value": 8
+          },
+          {
+            "key": "meleeStrengthBonus",
+            "value": 66
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
       }
     ],
     "skillData": [
@@ -111,9 +3357,9 @@
           "recipes": [
             {
               "id": "Bronze_Smithing_Stone",
-              "level": 14,
+              "level": 5,
               "productID": "Armament_Expanded:Bronze_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -130,10 +3376,30 @@
               "scCost": 0
             },
             {
+              "id": "Gilded_Bronze_Smithing_Stone",
+              "level": 7,
+              "productID": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Bronze_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
               "id": "Iron_Smithing_Stone",
-              "level": 14,
+              "level": 15,
               "productID": "Armament_Expanded:Iron_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -150,10 +3416,30 @@
               "scCost": 0
             },
             {
+              "id": "Gilded_Iron_Smithing_Stone",
+              "level": 17,
+              "productID": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Iron_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
               "id": "Steel_Smithing_Stone",
-              "level": 14,
+              "level": 30,
               "productID": "Armament_Expanded:Steel_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -170,10 +3456,30 @@
               "scCost": 0
             },
             {
+              "id": "Gilded_Steel_Smithing_Stone",
+              "level": 32,
+              "productID": "Armament_Expanded:Gilded_Steel_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Steel_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
               "id": "Mithril_Smithing_Stone",
-              "level": 14,
+              "level": 40,
               "productID": "Armament_Expanded:Mithril_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -190,10 +3496,30 @@
               "scCost": 0
             },
             {
+              "id": "Gilded_Mithril_Smithing_Stone",
+              "level": 42,
+              "productID": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
               "id": "Adamantite_Smithing_Stone",
-              "level": 14,
+              "level": 60,
               "productID": "Armament_Expanded:Adamantite_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -210,10 +3536,30 @@
               "scCost": 0
             },
             {
-              "id": "Rune_Smithing_Stone",
-              "level": 14,
-              "productID": "Armament_Expanded:Rune_Smithing_Stone",
-              "baseQuantity": 1,
+              "id": "Gilded_Adamantite_Smithing_Stone",
+              "level": 62,
+              "productID": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
+              "id": "Runite_Smithing_Stone",
+              "level": 75,
+              "productID": "Armament_Expanded:Runite_Smithing_Stone",
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -230,10 +3576,30 @@
               "scCost": 0
             },
             {
+              "id": "Gilded_Runite_Smithing_Stone",
+              "level": 77,
+              "productID": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Runite_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
+            },
+            {
               "id": "Dragonite_Smithing_Stone",
-              "level": 14,
+              "level": 90,
               "productID": "Armament_Expanded:Dragonite_Smithing_Stone",
-              "baseQuantity": 1,
+              "baseQuantity": 2,
               "baseExperience": 30,
               "categoryID": "Armament_Expanded:Stones",
               "itemCosts": [
@@ -248,10 +3614,1188 @@
               ],
               "gpCost": 0,
               "scCost": 0
+            },
+            {
+              "id": "Gilded_Dragonite_Smithing_Stone",
+              "level": 92,
+              "productID": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+              "baseQuantity": 2,
+              "baseExperience": 30,
+              "categoryID": "Armament_Expanded:Stones",
+              "itemCosts": [
+                {
+                  "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                  "quantity": 2
+                },
+                {
+                  "id": "melvorD:Gold_Bar",
+                  "quantity": 1
+                }
+              ],
+              "gpCost": 0,
+              "scCost": 0
             }
           ]
         }
       }
+    ],
+    "itemUpgrades": [
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Bronze_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Bronze_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Bronze_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Bronze_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Bronze_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Bronze_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Bronze_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Bronze_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Bronze_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Bronze_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Bronze_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Bronze_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Bronze_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Bronze_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Bronze_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Bronze_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Bronze_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Bronze_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Iron_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Iron_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Iron_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Iron_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Iron_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Iron_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Iron_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Iron_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Iron_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Iron_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Iron_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Iron_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Iron_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Iron_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Iron_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Iron_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Iron_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Iron_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Iron_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Iron_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Iron_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Iron_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Iron_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Iron_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Mithril_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Mithril_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Mithril_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Mithril_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Mithril_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Mithril_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Mithril_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Mithril_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Mithril_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Mithril_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Mithril_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Mithril_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Mithril_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Mithril_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Mithril_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Mithril_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Mithril_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Mithril_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Mithril_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Mithril_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Mithril_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Mithril_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Mithril_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Adamant_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Adamant_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Adamant_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Adamant_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Adamant_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Adamant_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Adamant_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Adamant_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Adamant_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Adamant_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Adamant_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Adamant_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Adamant_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Adamant_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Adamant_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Adamant_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Adamant_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Adamant_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Adamant_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Adamant_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Adamant_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Adamantite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Adamant_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Rune_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Rune_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Rune_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Rune_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Rune_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Rune_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Rune_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Rune_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Rune_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Rune_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Rune_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Rune_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Rune_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Rune_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Rune_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Rune_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Rune_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Rune_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Rune_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Rune_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Rune_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Rune_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Runite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Rune_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Dragon_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Dragon_Dagger"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Dagger",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Dragon_Dagger",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Dragon_Dagger"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Dragon_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Dragon_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Dragon_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Dragon_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Dragon_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Dragon_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Battleaxe",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Dragon_Battleaxe",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Dragon_Battleaxe"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Dragon_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Dragon_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_2H_Sword",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Dragon_2H_Sword",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Dragon_2H_Sword"
+        ],
+        "isDowngrade": false
+        },
+    
+    
+        {
+            "upgradedItemID": "Armament_Expanded:Sharpened_Dragon_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "melvorD:Dragon_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "melvorD:Dragon_Scimitar"
+        ],
+        "isDowngrade": false
+        },
+        {
+            "upgradedItemID": "Armament_Expanded:Gilded_Dragon_Scimitar",
+            "gpCost": 0,
+            "scCost": 0,
+            "itemCosts": [
+                {
+                    "id": "Armament_Expanded:Sharpened_Dragon_Scimitar",
+                    "quantity": 1
+                },
+                {
+                    "id": "Armament_Expanded:Gilded_Dragonite_Smithing_Stone",
+                    "quantity": 10
+                }
+            ],
+        "rootItemIDs": [
+            "Armament_Expanded:Sharpened_Dragon_Scimitar"
+        ],
+        "isDowngrade": false
+        }
     ]
   }
 }
