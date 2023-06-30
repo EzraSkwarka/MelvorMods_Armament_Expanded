@@ -1,5 +1,5 @@
 {
     "namespace": "Armament_Expanded",
     "setup": "setup.mjs",
-    "load": ["src/data.json", "src/smithing_stones.json"]
+    "load": ["src/data.json", "src/smithing_stones.json", "src/AEWeaponTrees.json", "src/MelvorDWeaponTrees.json", "src/MelvorFWeaponTrees.json"]
   }

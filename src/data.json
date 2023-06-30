@@ -3,23 +3,6 @@
   "data": {
     "items": [
       {
-        "id": "Test_Potion",
-        "name": "Test Potion",
-        "category": "Crafting",
-        "type": "Potion",
-        "ignoreCompletion": false,
-        "obtainFromItemLog": false,
-        "golbinRaidExclusive": false,
-        "sellsFor": 2,
-        "itemType": "Potion",
-        "media": "assets/temp.png",
-        "modifiers": "",
-        "charges": 1,
-        "tier": 0,
-        "action": "melvorD:Smithing",
-        "consumesOn": []
-      },
-      {
         "id": "Firebomb_Charge",
         "name": "Firebomb Charge",
         "category": "Crafting",

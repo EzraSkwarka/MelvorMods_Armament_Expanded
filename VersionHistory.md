@@ -1,3 +1,7 @@
+V0.4.0
+-Changed Smithing Stones to A 'Weaponite' System
+- Each basic weapon now scales to +10, gaining 10% stat boost per level
+
 V0.3.5
 - Smithing Stones: If I can add trim to my armor sets, why can't I sharpen my weapons? Well now you can!
 - Each base game weapon type (Bronze, Iron, Steel etc.) now has two corresponding 'Smithing Stones' that you can use to upgrade the Melee weapons to Sharpened or Gilded which confer a 1.25x and 1.50x stat boost to the weapon!
