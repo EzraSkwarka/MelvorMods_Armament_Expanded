@@ -4,16 +4,80 @@
     "items": [
       {
         "id": "Weaponite_Shard",
-        "name": "Weaponite_Shard",
+        "name": "Weaponite Shard",
         "category": "Smithing",
         "type": "Item",
         "ignoreCompletion": false,
         "obtainFromItemLog": false,
         "golbinRaidExclusive": false,
-        "sellsFor": 2,
+        "sellsFor": 800,
         "itemType": "Item",
         "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
-
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Large_Weaponite_Shard",
+        "name": "Large Weaponite Shard",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4000,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Weaponite_Chunk",
+        "name": "Weaponite Chunk",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4000,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Weaponite_Slab",
+        "name": "Weaponite Slab",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4000,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Shiny_Weaponite",
+        "name": "Shiny Weaponite",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4000,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "action": "melvorD:Smithing"
+      },
+      {
+        "id": "Weaponite_Scale",
+        "name": "Weaponite Scale",
+        "category": "Smithing",
+        "type": "Item",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 4000,
+        "itemType": "Item",
+        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
         "action": "melvorD:Smithing"
       }
     ]

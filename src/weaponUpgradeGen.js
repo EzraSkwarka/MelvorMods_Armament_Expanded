@@ -1,7 +1,8 @@
 var generateItemObjects = true;
-var generateUpgradeChains = false;
-var namespace = "melvorD";
+var generateUpgradeChains = true;
 var modspace = "Armament_Expanded";
+var namespace = modspace;
+var jsonObjectTarget;
 
 var jsonObjectArrayMod = [
   {
@@ -4089,7 +4090,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Iron_Crossbow",
@@ -4129,7 +4130,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Steel_Crossbow",
@@ -4169,7 +4170,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Mithril_Crossbow",
@@ -4209,7 +4210,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Adamant_Crossbow",
@@ -4249,7 +4250,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Rune_Crossbow",
@@ -4289,7 +4290,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Dragon_Crossbow",
@@ -4329,7 +4330,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Bolts",
-	specialAttacks: ["Armament_Expanded:crossbow_rapid"]
+    specialAttacks: ["Armament_Expanded:crossbow_rapid"]
   },
   {
     id: "Willow_Shortbow",
@@ -4369,7 +4370,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:shortbow_shot"]
+    specialAttacks: ["Armament_Expanded:shortbow_shot"]
   },
   {
     id: "Normal_Longbow",
@@ -4409,7 +4410,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:longbow_shot"]
+    specialAttacks: ["Armament_Expanded:longbow_shot"]
   },
   {
     id: "Oak_Longbow",
@@ -4449,7 +4450,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:longbow_shot"]
+    specialAttacks: ["Armament_Expanded:longbow_shot"]
   },
   {
     id: "Willow_Longbow",
@@ -4489,7 +4490,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:longbow_shot"]
+    specialAttacks: ["Armament_Expanded:longbow_shot"]
   },
   {
     id: "Yew_Longbow",
@@ -4529,7 +4530,7 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:longbow_shot"]
+    specialAttacks: ["Armament_Expanded:longbow_shot"]
   },
   {
     id: "Redwood_Shortbow",
@@ -4568,49 +4569,51 @@ var jsonObjectArrayFull = [
     itemType: "Weapon",
     attackType: "ranged",
     ammoTypeRequired: "Arrows",
-	specialAttacks: ["Armament_Expanded:shortbow_shot"]
+    specialAttacks: ["Armament_Expanded:shortbow_shot"]
   },
 ];
+
+
 //starting text
 if (generateItemObjects) {
   document.getElementById("item").innerHTML +=
     '{    "$schema": "https://melvoridle.com/assets/schema/gameData.json",    "data": {"items": [';
 }
-
 if (generateUpgradeChains) {
   document.getElementById("itemUpgrades").innerHTML += '"itemUpgrades": [';
 }
 
-for (let superindex = 0; superindex < jsonObjectArray.length; superindex++) {
-  var jsonObject = JSON.parse(JSON.stringify(jsonObjectArrayFull[superindex]));
+jsonObjectTarget = jsonObjectArrayMod;
+
+for (let superindex = 0; superindex < jsonObjectTarget.length; superindex++) {
+  var jsonObject = JSON.parse(JSON.stringify(jsonObjectTarget[superindex]));
   //Json Item Objects
   var appendIDArray = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10"];
   var appendNameArray = [" +1", " +2", " +3", " +4", " +5", " +6", " +7", " +8", " +9", " +10"];
+  var upgradeMatArray = [
+    "Armament_Expanded:Weaponite_Shard", "Armament_Expanded:Weaponite_Shard", "Armament_Expanded:Weaponite_Shard",
+    "Armament_Expanded:Large_Weaponite_Shard", "Armament_Expanded:Large_Weaponite_Shard", "Armament_Expanded:Large_Weaponite_Shard",
+    "Armament_Expanded:Weaponite_Chunk", "Armament_Expanded:Weaponite_Chunk", "Armament_Expanded:Weaponite_Chunk",
+    "Armament_Expanded:Weaponite_Slab"];
+  var upgradeMatCostArray = [2, 4, 6, 2, 4, 6, 2, 4, 6, 1];
+
   var equipmentStatsDepth = jsonObject.equipmentStats.length;
   if (generateItemObjects) {
-    //Base
-    // var jsonString = JSON.stringify(jsonObject);
-    // document.getElementById("item").innerHTML += jsonString;
-
-    //Extra
     for (let index = 0; index < appendIDArray.length; index++) {
       var jsonObjectCopy = JSON.parse(JSON.stringify(jsonObject));
       jsonObjectCopy.id = jsonObject.id + appendIDArray[index];
       jsonObjectCopy.name = jsonObject.name + appendNameArray[index];
-      jsonObjectCopy.media = "melvor:" + jsonObject.media;
-
+      if (namespace.includes("melvor")) {
+        jsonObjectCopy.media = "melvor:" + jsonObject.media;
+      }
       for (let subindex = 1; subindex < equipmentStatsDepth; subindex++) {
         jsonObjectCopy.equipmentStats[subindex].value = Math.floor(
           jsonObject.equipmentStats[subindex].value * (1 + index / 10)
         );
       }
-
       var jsonStringCopy = JSON.stringify(jsonObjectCopy);
       document.getElementById("item").innerHTML += jsonStringCopy + ", \n";
     }
-    // if (superindex != jsonObjectArray.length - 1) {
-    //   document.getElementById("item").innerHTML += ",";
-    // }
   }
   //Json Upgrade Chains
   var jsonUpgradeChainObject = {};
@@ -4626,8 +4629,8 @@ for (let superindex = 0; superindex < jsonObjectArray.length; superindex++) {
             quantity: 1,
           },
           {
-            id: "Armament_Expanded:Weaponite_Shard",
-            quantity: Math.pow(index, 2) + 1,
+            id: upgradeMatArray[index],
+            quantity: upgradeMatCostArray[index],
           },
         ];
         jsonUpgradeChainObject.rootItemIDs = [namespace + ":" + jsonObject.id];
@@ -4638,8 +4641,8 @@ for (let superindex = 0; superindex < jsonObjectArray.length; superindex++) {
             quantity: 1,
           },
           {
-            id: "Armament_Expanded:Weaponite_Shard",
-            quantity: Math.pow(index, 2) + 1,
+            id: upgradeMatArray[index],
+            quantity: upgradeMatCostArray[index],
           },
         ];
         jsonUpgradeChainObject.rootItemIDs = [modspace + ":" + jsonObject.id + appendIDArray[index - 1]];
