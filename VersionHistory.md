@@ -1,5 +1,20 @@
+V0.4.1
+ - Added better sprites for Weaponite
+ - Increased Locations that Weaponite can be found:
+  - Weaponite Shard:
+    - Skeleton, Steel Knight, Black Knight, Hill Giant, Mithril Knight, Statue, Vampire, Adamant Knight, Wandering Bard, Green Dragon, Blue Dragon, Rune Knight, Red Dragon, Black Dragon, Ragging Horned Elite, Paladin
+    - After Beating Dragon's Den for 10,000 gp in the shop
+  - Large Weaponite Shard:
+    - Adamant Knight, Red Dragon, Black Dragon, Rune Knight, Ragging Horned Elite, Paladin, Seething Horned Elite, Dark Horned Elite, Sand Beast
+    - After Beating Infernal Stronghold for 25,000gp in the shop
+  - Weaponite Chunk:
+    - Noxious Serpent, Venomous Snake, Giant Moth
+    - After Beating Water God Dungeon for 50,000gp in the shop
+  - Weaponite Slab:
+    - Bounty Hunter, Wicked Greater Dragon, Hunting Greater Dragon, Chaotic Greater Dragon
+
 V0.4.0
--Changed Smithing Stones to A 'Weaponite' System
+- Changed Smithing Stones to A 'Weaponite' System
 - Each basic weapon now scales to +10, gaining 10% stat boost per level
 
 V0.3.5

@@ -12,7 +12,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 800,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Weaponite_Shard.png",
         "action": "melvorD:Smithing"
       },
       {
@@ -25,7 +25,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 4000,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Large_Weaponite_Shard.png",
         "action": "melvorD:Smithing"
       },
       {
@@ -38,7 +38,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 10000,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Weaponite_Chunk.png",
         "action": "melvorD:Smithing"
       },
       {
@@ -51,7 +51,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 20000,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Weaponite_Slab.png",
         "action": "melvorD:Smithing"
       },
       {
@@ -80,10 +80,241 @@
         "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
         "action": "melvorD:Smithing"
       }
+    ],
+    "shopPurchases": [
+      {
+        "id": "Weaponite_Shard",
+        "media": "assets/smithing_stones/Weaponite_Shard.png",
+        "category": "melvorD:Materials",
+        "contains": {
+          "items": [
+            {
+              "id": "Armament_Expanded:Weaponite_Shard",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 10000
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [],
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          }
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Dragons_Den"
+
+          }
+        ],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false
+      },{
+        "id": "Large_Weaponite_Shard",
+        "media": "assets/smithing_stones/Large_Weaponite_Shard.png",
+        "category": "melvorD:Materials",
+        "contains": {
+          "items": [
+            {
+              "id": "Armament_Expanded:Large_Weaponite_Shard",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 25000
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [],
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          }
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Infernal_Stronghold"
+
+          }
+        ],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false
+      },
+      {
+        "id": "Weaponite_Chunk",
+        "media": "assets/smithing_stones/Weaponite_Chunk.png",
+        "category": "melvorD:Materials",
+        "contains": {
+          "items": [
+            {
+              "id": "Armament_Expanded:Weaponite_Chunk",
+              "quantity": 1
+            }
+          ]
+        },
+        "cost": {
+          "gp": {
+            "type": "Fixed",
+            "cost": 50000
+          },
+          "slayerCoins": {
+            "type": "Fixed",
+            "cost": 0
+          },
+          "items": [],
+          "raidCoins": {
+            "type": "Fixed",
+            "cost": 0
+          }
+        },
+        "allowQuantityPurchase": true,
+        "unlockRequirements": [],
+        "purchaseRequirements": [
+          {
+            "type": "DungeonCompletion",
+            "dungeonID": "melvorF:Water_God_Dungeon"
+
+          }
+        ],
+        "defaultBuyLimit": 0,
+        "buyLimitOverrides": [],
+        "showBuyLimit": false
+      }
+    ],
+    "shopDisplayOrder": [
+      {
+        "insertAt": "After",
+        "afterID": "melvorF:Red_Dragonhide",
+        "ids": [
+          "Armament_Expanded:Weaponite_Shard"
+        ]
+      },
+      {
+        "insertAt": "After",
+        "afterID": "Armament_Expanded:Weaponite_Shard",
+        "ids": [
+          "Armament_Expanded:Large_Weaponite_Shard"
+        ]
+      },
+      
+      {
+        "insertAt": "After",
+        "afterID": "Armament_Expanded:Large_Weaponite_Shard",
+        "ids": [
+          "Armament_Expanded:Weaponite_Chunk"
+        ]
+      }
     ]
   },
   "modifications": {
     "monsters": [
+      {
+        "id": "melvorD:Skeleton",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            },
+            {
+              "itemID": "melvorD:Headless_Arrows",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 199
+            }
+          ],
+          "remove": [
+            "melvorD:Headless_Arrows"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:SteelKnight",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 3
+            },
+            {
+              "itemID": "melvorD:Steel_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 70
+            },
+            {
+              "itemID": "melvorD:Steel_Helmet",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 40
+            },
+            {
+              "itemID": "melvorD:Steel_Shield",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "melvorD:Steel_Sword",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "melvorD:Steel_Scimitar",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 12
+            },
+            {
+              "itemID": "melvorD:Steel_Platelegs",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 7
+            },
+            {
+              "itemID": "melvorD:Steel_Platebody",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": [
+            "melvorD:Steel_Boots",
+            "melvorD:Steel_Helmet",
+            "melvorD:Steel_Sword",
+            "melvorD:Steel_Shield",
+            "melvorD:Steel_Scimitar",
+            "melvorD:Steel_Platelegs",
+            "melvorD:Steel_Platebody"
+          ]
+        }
+      },
       {
         "id": "melvorD:BlackKnight",
         "lootTable": {
@@ -92,14 +323,85 @@
               "itemID": "Armament_Expanded:Weaponite_Shard",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 10
+              "weight": 61
+            },
+            {
+              "itemID": "melvorD:Black_Boots",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 50
+            },
+            {
+              "itemID": "melvorD:Black_Helmet",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "melvorD:Black_Dagger",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 30
+            },
+            {
+              "itemID": "melvorD:Black_2H_Sword",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "melvorD:Black_Battleaxe",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "melvorD:Black_Shield",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "melvorD:Black_Sword",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 20
+            },
+            {
+              "itemID": "melvorD:Black_Scimitar",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            },
+            {
+              "itemID": "melvorD:Black_Platelegs",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            },
+            {
+              "itemID": "melvorD:Black_Platebody",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
             }
           ],
-          "remove": []
+          "remove": [
+            "melvorD:Black_Boots",
+            "melvorD:Black_Dagger",
+            "melvorD:Black_Helmet",
+            "melvorD:Black_2H_Sword",
+            "melvorD:Black_Battleaxe",
+            "melvorD:Black_Sword",
+            "melvorD:Black_Shield",
+            "melvorD:Black_Scimitar",
+            "melvorD:Black_Platelegs",
+            "melvorD:Black_Platebody"
+          ]
         }
       },
       {
-        "id": "melvorD:MithrilKnight",
+        "id": "melvorD:HillGiant",
         "lootTable": {
           "add": [
             {
@@ -113,9 +415,253 @@
         }
       },
       {
+        "id": "melvorD:MithrilKnight",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:Statue",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            },
+            {
+              "itemID": "melvorD:Coal_Ore",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 8
+            },
+            {
+              "itemID": "melvorD:Gold_Bar",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            },
+            {
+              "itemID": "melvorD:Silver_Bar",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": [
+            "melvorD:Coal_Ore",
+            "melvorD:Gold_Bar",
+            "melvorD:Silver_Bar"
+          ]
+        }
+      },
+      {
+        "id": "melvorF:Vampire",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
         "id": "melvorD:AdamantKnight",
         "lootTable": {
           "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 2,
+              "weight": 7
+            },
+            {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:WanderingBard",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorD:GreenDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "melvorD:Green_Dragonhide",
+              "minQuantity": 1,
+              "maxQuantity": 15,
+              "weight": 95
+            },
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": [
+            "melvorD:Green_Dragonhide"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:RedDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "melvorD:Red_Dragonhide",
+              "minQuantity": 1,
+              "maxQuantity": 25,
+              "weight": 92
+            },
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 2,
+              "weight": 7
+            },
+            {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ],
+          "remove": [
+            "melvorD:Red_Dragonhide"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:BlackDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "melvorD:Black_Dragonhide",
+              "minQuantity": 1,
+              "maxQuantity": 30,
+              "weight": 92
+            },
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 2,
+              "weight": 7
+            },
+            {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ],
+          "remove": [
+            "melvorD:Black_Dragonhide"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:BlueDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "melvorD:Blue_Dragonhide",
+              "minQuantity": 1,
+              "maxQuantity": 20,
+              "weight": 95
+            },
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 2,
+              "weight": 5
+            }
+          ],
+          "remove": [
+            "melvorD:Blue_Dragonhide"
+          ]
+        }
+      },
+      {
+        "id": "melvorD:RuneKnight",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 3,
+              "weight": 11
+            },
+            {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 1
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:RagingHornedElite",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 58
+            },
+            {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 10
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:Paladin",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Shard",
+              "minQuantity": 1,
+              "maxQuantity": 2,
+              "weight": 7
+            },
             {
               "itemID": "Armament_Expanded:Large_Weaponite_Shard",
               "minQuantity": 1,
@@ -127,28 +673,28 @@
         }
       },
       {
-        "id": "melvorD:RuneKnight",
+        "id": "melvorF:SeethingHornedElite",
         "lootTable": {
           "add": [
             {
               "itemID": "Armament_Expanded:Large_Weaponite_Shard",
               "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 5
+              "maxQuantity": 2,
+              "weight": 25
             }
           ],
           "remove": []
         }
       },
       {
-        "id": "melvorD:ElerineWarrior",
+        "id": "melvorF:DarkHornedElite",
         "lootTable": {
           "add": [
             {
-              "itemID": "Armament_Expanded:Weaponite_Chunk",
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
               "minQuantity": 1,
-              "maxQuantity": 1,
-              "weight": 5
+              "maxQuantity": 2,
+              "weight": 34
             }
           ],
           "remove": []
@@ -159,10 +705,108 @@
         "lootTable": {
           "add": [
             {
+              "itemID": "Armament_Expanded:Large_Weaponite_Shard",
+              "minQuantity": 2,
+              "maxQuantity": 3,
+              "weight": 30
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:NoxiousSerpent",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Chunk",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:VenomousSnake",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Chunk",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:GiantMoth",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Chunk",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:BountyHunter",
+        "lootTable": {
+          "add": [
+            {
               "itemID": "Armament_Expanded:Weaponite_Slab",
               "minQuantity": 1,
               "maxQuantity": 1,
-              "weight": 1
+              "weight": 4
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:WickedGreaterDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Slab",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 9
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:HuntingGreaterDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Slab",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 10
+            }
+          ],
+          "remove": []
+        }
+      },
+      {
+        "id": "melvorF:ChaoticGreaterDragon",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Weaponite_Slab",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 12
             }
           ],
           "remove": []
