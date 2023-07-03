@@ -3,6 +3,7 @@ Adds a Souls inspired weapon upgrade system, new types of weapons (whips, spears
 
 # Descrption
 ## New Weapon Types
+I've added three new weapon types to the game two to fill in what I saw as gabs, and one just for fun.
 ### Whips
 ### Spears
 ### Throwable Bombs
