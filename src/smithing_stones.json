@@ -64,7 +64,7 @@
         "golbinRaidExclusive": false,
         "sellsFor": 4000,
         "itemType": "Item",
-        "media": "assets/smithing_stones/Bronze_Smithing_Stone.png",
+        "media": "assets/smithing_stones/Shiny_Weaponite.png",
         "action": "melvorD:Smithing"
       },
       {
