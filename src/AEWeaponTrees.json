@@ -7735,6 +7735,24 @@
     ],
     "itemUpgrades": [
       {
+        "upgradedItemID": "Armament_Expanded:Infernal_Dragonwhip",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          {
+            "id": "Armament_Expanded:Elder_Dragonwhip_10",
+            "quantity": 1
+          },
+          {
+            "id": "melvorF:Infernal_Core",
+            "quantity": 15
+          }
+        ],
+        "rootItemIDs": [
+          "Armament_Expanded:Elder_Dragonwhip_10"
+        ],
+        "isDowngrade": false
+      },{
         "upgradedItemID": "Armament_Expanded:Bronze_Spear_1",
         "gpCost": 0,
         "scCost": 0,
