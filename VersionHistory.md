@@ -1,3 +1,14 @@
+V0.4.2
+- Added Shinny Weaponite as an upgrade path for the following weapons: Ancient Longbow, Ancient Sword, Sunset Rapier, Elerine Longbow, Elerine Spear, Ancient Crossbow, Slayer Crossbow, Cloudburst Staff, Ancient 2H Sword, Big Ron, Twin Exiles, Miolite Sceptre, Desert Sabre, Desert Shortbow, Stormsnap, Sanguine Blade, Infernal Claw, Tidal Edge, Ocean Song, Shockwave, War Axe, Warberd, Natures Wrath Staff, Poisoned Shortbow, Poisoned Dagger, Ultima Godsword (does not increase DR)
+- Upgrading with Shinny Weaponite boosts stats by 20% per level, but only scales to +5
+- Shinny Weaponite Can be dropped by: Fierce Devil, Angel, Cursed Maiden, Ku-tul, Rokken, and Umbora
+- Some weapons are left out of the scaling system, and that is because it would break the already existing upgrade system in the game (i.e. Dragon Claw + Ancient Claw + Infernal Cores -> Infernal Claw)
+ 
+
+V0.4.1a
+- Fixed Completion Log Issues
+- Made infernal Dragonwhip obtainable again
+
 V0.4.1
  - Added better sprites for Weaponite
  - Increased Locations that Weaponite can be found:

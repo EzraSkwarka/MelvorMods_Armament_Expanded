@@ -811,6 +811,97 @@
           ],
           "remove": []
         }
+      },
+      
+      {
+        "id": "melvorF:FierceDevil",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 5
+            }
+          ],
+          "remove": []
+        }
+      },
+      
+      {
+        "id": "melvorF:Angel",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      },
+      
+      {
+        "id": "melvorF:CursedMaiden",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 6
+            }
+          ],
+          "remove": []
+        }
+      },
+      
+      {
+        "id": "melvorF:Kutul",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      },
+      
+      {
+        "id": "melvorF:Rokken",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
+      }
+      ,
+      
+      {
+        "id": "melvorF:Umbora",
+        "lootTable": {
+          "add": [
+            {
+              "itemID": "Armament_Expanded:Shiny_Weaponite",
+              "minQuantity": 1,
+              "maxQuantity": 1,
+              "weight": 2
+            }
+          ],
+          "remove": []
+        }
       }
     ]
   }

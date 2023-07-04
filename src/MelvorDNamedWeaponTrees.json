@@ -1,0 +1,959 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "items": [
+      {
+        "id": "Ancient_Longbow_1",
+        "name": "Ancient Longbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_longbow_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 85 },
+          { "key": "rangedStrengthBonus", "value": 110 }
+        ],
+        "specialAttacks": ["melvorD:PiercingArrow"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Ancient_Longbow_2",
+        "name": "Ancient Longbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_longbow_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 102 },
+          { "key": "rangedStrengthBonus", "value": 132 }
+        ],
+        "specialAttacks": ["melvorD:PiercingArrow"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Ancient_Longbow_3",
+        "name": "Ancient Longbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_longbow_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 118 },
+          { "key": "rangedStrengthBonus", "value": 154 }
+        ],
+        "specialAttacks": ["melvorD:PiercingArrow"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Ancient_Longbow_4",
+        "name": "Ancient Longbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_longbow_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 136 },
+          { "key": "rangedStrengthBonus", "value": 176 }
+        ],
+        "specialAttacks": ["melvorD:PiercingArrow"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Ancient_Longbow_5",
+        "name": "Ancient Longbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_longbow_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 153 },
+          { "key": "rangedStrengthBonus", "value": 198 }
+        ],
+        "specialAttacks": ["melvorD:PiercingArrow"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Ancient_Sword_1",
+        "name": "Ancient Sword +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "If you have 100% Hitpoints, +20% Damage to All Monsters.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 72 },
+          { "key": "slashAttackBonus", "value": 24 },
+          { "key": "blockAttackBonus", "value": 28 },
+          { "key": "meleeStrengthBonus", "value": 75 },
+          { "key": "meleeDefenceBonus", "value": 3 }
+        ],
+        "modifiers": { "increasedDamageToAllMonsters": 20 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "Hitpoints", "character": "Player", "value": 100, "operator": "<" },
+            "modifiers": { "decreasedDamageToAllMonsters": 20 }
+          }
+        ],
+        "specialAttacks": ["melvorD:LifeLeech"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_Sword_2",
+        "name": "Ancient Sword +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "If you have 100% Hitpoints, +20% Damage to All Monsters.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 86 },
+          { "key": "slashAttackBonus", "value": 28 },
+          { "key": "blockAttackBonus", "value": 33 },
+          { "key": "meleeStrengthBonus", "value": 90 },
+          { "key": "meleeDefenceBonus", "value": 3 }
+        ],
+        "modifiers": { "increasedDamageToAllMonsters": 20 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "Hitpoints", "character": "Player", "value": 100, "operator": "<" },
+            "modifiers": { "decreasedDamageToAllMonsters": 20 }
+          }
+        ],
+        "specialAttacks": ["melvorD:LifeLeech"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_Sword_3",
+        "name": "Ancient Sword +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "If you have 100% Hitpoints, +20% Damage to All Monsters.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 100 },
+          { "key": "slashAttackBonus", "value": 33 },
+          { "key": "blockAttackBonus", "value": 39 },
+          { "key": "meleeStrengthBonus", "value": 105 },
+          { "key": "meleeDefenceBonus", "value": 4 }
+        ],
+        "modifiers": { "increasedDamageToAllMonsters": 20 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "Hitpoints", "character": "Player", "value": 100, "operator": "<" },
+            "modifiers": { "decreasedDamageToAllMonsters": 20 }
+          }
+        ],
+        "specialAttacks": ["melvorD:LifeLeech"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_Sword_4",
+        "name": "Ancient Sword +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "If you have 100% Hitpoints, +20% Damage to All Monsters.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 115 },
+          { "key": "slashAttackBonus", "value": 38 },
+          { "key": "blockAttackBonus", "value": 44 },
+          { "key": "meleeStrengthBonus", "value": 120 },
+          { "key": "meleeDefenceBonus", "value": 4 }
+        ],
+        "modifiers": { "increasedDamageToAllMonsters": 20 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "Hitpoints", "character": "Player", "value": 100, "operator": "<" },
+            "modifiers": { "decreasedDamageToAllMonsters": 20 }
+          }
+        ],
+        "specialAttacks": ["melvorD:LifeLeech"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_Sword_5",
+        "name": "Ancient Swordundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sword_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 150000,
+        "customDescription": "If you have 100% Hitpoints, +20% Damage to All Monsters.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 129 },
+          { "key": "slashAttackBonus", "value": 43 },
+          { "key": "blockAttackBonus", "value": 50 },
+          { "key": "meleeStrengthBonus", "value": 135 },
+          { "key": "meleeDefenceBonus", "value": 5 }
+        ],
+        "modifiers": { "increasedDamageToAllMonsters": 20 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "Hitpoints", "character": "Player", "value": 100, "operator": "<" },
+            "modifiers": { "decreasedDamageToAllMonsters": 20 }
+          }
+        ],
+        "specialAttacks": ["melvorD:LifeLeech"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sunset_Rapier_1",
+        "name": "Sunset Rapier +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sunset_rapier.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52000,
+        "customDescription": "Created by Patreon (NewSon)",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 72 },
+          { "key": "slashAttackBonus", "value": 55 },
+          { "key": "blockAttackBonus", "value": 65 },
+          { "key": "meleeStrengthBonus", "value": 63 }
+        ],
+        "specialAttacks": ["melvorD:SunsetStab"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sunset_Rapier_2",
+        "name": "Sunset Rapier +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sunset_rapier.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52000,
+        "customDescription": "Created by Patreon (NewSon)",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 86 },
+          { "key": "slashAttackBonus", "value": 66 },
+          { "key": "blockAttackBonus", "value": 78 },
+          { "key": "meleeStrengthBonus", "value": 75 }
+        ],
+        "specialAttacks": ["melvorD:SunsetStab"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sunset_Rapier_3",
+        "name": "Sunset Rapier +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sunset_rapier.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52000,
+        "customDescription": "Created by Patreon (NewSon)",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 100 },
+          { "key": "slashAttackBonus", "value": 77 },
+          { "key": "blockAttackBonus", "value": 91 },
+          { "key": "meleeStrengthBonus", "value": 88 }
+        ],
+        "specialAttacks": ["melvorD:SunsetStab"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sunset_Rapier_4",
+        "name": "Sunset Rapier +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sunset_rapier.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52000,
+        "customDescription": "Created by Patreon (NewSon)",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 115 },
+          { "key": "slashAttackBonus", "value": 88 },
+          { "key": "blockAttackBonus", "value": 104 },
+          { "key": "meleeStrengthBonus", "value": 100 }
+        ],
+        "specialAttacks": ["melvorD:SunsetStab"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sunset_Rapier_5",
+        "name": "Sunset Rapierundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_sunset_rapier.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 52000,
+        "customDescription": "Created by Patreon (NewSon)",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 129 },
+          { "key": "slashAttackBonus", "value": 99 },
+          { "key": "blockAttackBonus", "value": 117 },
+          { "key": "meleeStrengthBonus", "value": 113 }
+        ],
+        "specialAttacks": ["melvorD:SunsetStab"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Elerine_Longbow_1",
+        "name": "Elerine Longbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/elerine_longbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15350,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 83 },
+          { "key": "rangedStrengthBonus", "value": 90 }
+        ],
+        "specialAttacks": ["melvorD:OnTheHunt"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Elerine_Longbow_2",
+        "name": "Elerine Longbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/elerine_longbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15350,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 99 },
+          { "key": "rangedStrengthBonus", "value": 108 }
+        ],
+        "specialAttacks": ["melvorD:OnTheHunt"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Elerine_Longbow_3",
+        "name": "Elerine Longbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/elerine_longbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15350,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 116 },
+          { "key": "rangedStrengthBonus", "value": 125 }
+        ],
+        "specialAttacks": ["melvorD:OnTheHunt"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Elerine_Longbow_4",
+        "name": "Elerine Longbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/elerine_longbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15350,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 132 },
+          { "key": "rangedStrengthBonus", "value": 144 }
+        ],
+        "specialAttacks": ["melvorD:OnTheHunt"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Elerine_Longbow_5",
+        "name": "Elerine Longbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/elerine_longbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 15350,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "rangedAttackBonus", "value": 149 },
+          { "key": "rangedStrengthBonus", "value": 162 }
+        ],
+        "specialAttacks": ["melvorD:OnTheHunt"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Elerine_Spear_1",
+        "name": "Elerine Spear +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/elerine_spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 18900,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 40 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": 86 },
+          { "key": "slashAttackBonus", "value": -4 },
+          { "key": "blockAttackBonus", "value": -4 },
+          { "key": "meleeStrengthBonus", "value": 126 }
+        ],
+        "specialAttacks": ["melvorD:Onslaught"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Elerine_Spear_2",
+        "name": "Elerine Spear +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/elerine_spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 18900,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 40 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": 103 },
+          { "key": "slashAttackBonus", "value": -5 },
+          { "key": "blockAttackBonus", "value": -5 },
+          { "key": "meleeStrengthBonus", "value": 151 }
+        ],
+        "specialAttacks": ["melvorD:Onslaught"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Elerine_Spear_3",
+        "name": "Elerine Spear +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/elerine_spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 18900,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 40 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": 120 },
+          { "key": "slashAttackBonus", "value": -6 },
+          { "key": "blockAttackBonus", "value": -6 },
+          { "key": "meleeStrengthBonus", "value": 176 }
+        ],
+        "specialAttacks": ["melvorD:Onslaught"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Elerine_Spear_4",
+        "name": "Elerine Spear +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/elerine_spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 18900,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 40 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": 137 },
+          { "key": "slashAttackBonus", "value": -7 },
+          { "key": "blockAttackBonus", "value": -7 },
+          { "key": "meleeStrengthBonus", "value": 201 }
+        ],
+        "specialAttacks": ["melvorD:Onslaught"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Elerine_Spear_5",
+        "name": "Elerine Spearundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/elerine_spear.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 18900,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 40 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": 154 },
+          { "key": "slashAttackBonus", "value": -8 },
+          { "key": "blockAttackBonus", "value": -8 },
+          { "key": "meleeStrengthBonus", "value": 226 }
+        ],
+        "specialAttacks": ["melvorD:Onslaught"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Longbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorD:Ancient_Longbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorD:Ancient_Longbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Longbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Longbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Longbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Longbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Longbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Longbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Longbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Longbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Longbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Longbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Longbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Longbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Sword_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorD:Ancient_Sword", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorD:Ancient_Sword"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Sword_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Sword_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Sword_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Sword_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Sword_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Sword_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Sword_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Sword_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Sword_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Sword_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Sword_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Sword_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sunset_Rapier_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorD:Sunset_Rapier", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorD:Sunset_Rapier"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sunset_Rapier_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sunset_Rapier_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sunset_Rapier_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sunset_Rapier_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sunset_Rapier_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sunset_Rapier_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sunset_Rapier_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sunset_Rapier_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sunset_Rapier_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sunset_Rapier_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sunset_Rapier_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sunset_Rapier_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Longbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorD:Elerine_Longbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorD:Elerine_Longbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Longbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Longbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Longbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Longbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Longbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Longbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Longbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Longbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Longbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Longbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Longbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Longbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Spear_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorD:Elerine_Spear", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorD:Elerine_Spear"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Spear_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Spear_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Spear_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Spear_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Spear_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Spear_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Spear_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Spear_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Spear_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Elerine_Spear_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Elerine_Spear_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Elerine_Spear_4"],
+        "isDowngrade": false
+      }
+    ]
+  }
+}

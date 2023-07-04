@@ -1,0 +1,4059 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "items": [
+      {
+        "id": "Ancient_Crossbow_1",
+        "name": "Ancient Crossbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_ancient.svg",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "customDescription": "Requires Bolts as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 76 },
+          { "key": "rangedStrengthBonus", "value": 132 }
+        ],
+        "specialAttacks": ["melvorF:ImpairingShot"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Ancient_Crossbow_2",
+        "name": "Ancient Crossbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_ancient.svg",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "customDescription": "Requires Bolts as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 91 },
+          { "key": "rangedStrengthBonus", "value": 158 }
+        ],
+        "specialAttacks": ["melvorF:ImpairingShot"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Ancient_Crossbow_3",
+        "name": "Ancient Crossbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_ancient.svg",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "customDescription": "Requires Bolts as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 106 },
+          { "key": "rangedStrengthBonus", "value": 184 }
+        ],
+        "specialAttacks": ["melvorF:ImpairingShot"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Ancient_Crossbow_4",
+        "name": "Ancient Crossbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_ancient.svg",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "customDescription": "Requires Bolts as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 121 },
+          { "key": "rangedStrengthBonus", "value": 211 }
+        ],
+        "specialAttacks": ["melvorF:ImpairingShot"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Ancient_Crossbow_5",
+        "name": "Ancient Crossbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_ancient.svg",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 500000,
+        "customDescription": "Requires Bolts as Ammunition.",
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 136 },
+          { "key": "rangedStrengthBonus", "value": 237 }
+        ],
+        "specialAttacks": ["melvorF:ImpairingShot"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Slayer_Crossbow_1",
+        "name": "Slayer's Crossbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_slayer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 75000,
+        "customDescription": "Created by Patreon (Elliott) Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 65 },
+          { "key": "rangedStrengthBonus", "value": 102 }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Slayer_Crossbow_2",
+        "name": "Slayer's Crossbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_slayer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 75000,
+        "customDescription": "Created by Patreon (Elliott) Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 78 },
+          { "key": "rangedStrengthBonus", "value": 122 }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Slayer_Crossbow_3",
+        "name": "Slayer's Crossbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_slayer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 75000,
+        "customDescription": "Created by Patreon (Elliott) Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 91 },
+          { "key": "rangedStrengthBonus", "value": 142 }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Slayer_Crossbow_4",
+        "name": "Slayer's Crossbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_slayer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 75000,
+        "customDescription": "Created by Patreon (Elliott) Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 104 },
+          { "key": "rangedStrengthBonus", "value": 163 }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Slayer_Crossbow_5",
+        "name": "Slayer's Crossbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/weapon_crossbow_slayer.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 75000,
+        "customDescription": "Created by Patreon (Elliott) Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 117 },
+          { "key": "rangedStrengthBonus", "value": 183 }
+        ],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Cloudburst_Staff_1",
+        "name": "Cloudburst Staff +1",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/cloudburst_staff.png?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+        "mediaAnimation": "assets/media/bank/cloudburst_staff2.gif",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 85 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 45 },
+          { "key": "meleeDefenceBonus", "value": 5 },
+          { "key": "magicDefenceBonus", "value": 28 },
+          { "key": "magicDamageBonus", "value": 30 }
+        ],
+        "modifiers": { "increasedMaxWaterSpellDmg": 40 },
+        "specialAttacks": ["melvorF:FreezeRay"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 7 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Cloudburst_Staff_2",
+        "name": "Cloudburst Staff +2",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/cloudburst_staff.png?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+        "mediaAnimation": "assets/media/bank/cloudburst_staff2.gif",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 85 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 54 },
+          { "key": "meleeDefenceBonus", "value": 6 },
+          { "key": "magicDefenceBonus", "value": 33 },
+          { "key": "magicDamageBonus", "value": 36 }
+        ],
+        "modifiers": { "increasedMaxWaterSpellDmg": 40 },
+        "specialAttacks": ["melvorF:FreezeRay"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 7 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Cloudburst_Staff_3",
+        "name": "Cloudburst Staff +3",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/cloudburst_staff.png?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+        "mediaAnimation": "assets/media/bank/cloudburst_staff2.gif",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 85 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 62 },
+          { "key": "meleeDefenceBonus", "value": 7 },
+          { "key": "magicDefenceBonus", "value": 39 },
+          { "key": "magicDamageBonus", "value": 42 }
+        ],
+        "modifiers": { "increasedMaxWaterSpellDmg": 40 },
+        "specialAttacks": ["melvorF:FreezeRay"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 7 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Cloudburst_Staff_4",
+        "name": "Cloudburst Staff +5",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/cloudburst_staff.png?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+        "mediaAnimation": "assets/media/bank/cloudburst_staff2.gif",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 85 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 72 },
+          { "key": "meleeDefenceBonus", "value": 8 },
+          { "key": "magicDefenceBonus", "value": 44 },
+          { "key": "magicDamageBonus", "value": 48 }
+        ],
+        "modifiers": { "increasedMaxWaterSpellDmg": 40 },
+        "specialAttacks": ["melvorF:FreezeRay"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 7 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Cloudburst_Staff_5",
+        "name": "Cloudburst Staffundefined",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/cloudburst_staff.png?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+        "mediaAnimation": "assets/media/bank/cloudburst_staff2.gif",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 85 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 81 },
+          { "key": "meleeDefenceBonus", "value": 9 },
+          { "key": "magicDefenceBonus", "value": 50 },
+          { "key": "magicDamageBonus", "value": 54 }
+        ],
+        "modifiers": { "increasedMaxWaterSpellDmg": 40 },
+        "specialAttacks": ["melvorF:FreezeRay"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 7 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Ancient_2H_Sword_1",
+        "name": "Ancient 2H Sword +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 118 },
+          { "key": "blockAttackBonus", "value": 118 },
+          { "key": "meleeStrengthBonus", "value": 201 },
+          { "key": "meleeDefenceBonus", "value": 21 }
+        ],
+        "specialAttacks": ["melvorF:CrushingDoubleSlash"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_2H_Sword_2",
+        "name": "Ancient 2H Sword +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -5 },
+          { "key": "slashAttackBonus", "value": 141 },
+          { "key": "blockAttackBonus", "value": 141 },
+          { "key": "meleeStrengthBonus", "value": 241 },
+          { "key": "meleeDefenceBonus", "value": 25 }
+        ],
+        "specialAttacks": ["melvorF:CrushingDoubleSlash"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_2H_Sword_3",
+        "name": "Ancient 2H Sword +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -6 },
+          { "key": "slashAttackBonus", "value": 165 },
+          { "key": "blockAttackBonus", "value": 165 },
+          { "key": "meleeStrengthBonus", "value": 281 },
+          { "key": "meleeDefenceBonus", "value": 29 }
+        ],
+        "specialAttacks": ["melvorF:CrushingDoubleSlash"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_2H_Sword_4",
+        "name": "Ancient 2H Sword +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -7 },
+          { "key": "slashAttackBonus", "value": 188 },
+          { "key": "blockAttackBonus", "value": 188 },
+          { "key": "meleeStrengthBonus", "value": 321 },
+          { "key": "meleeDefenceBonus", "value": 33 }
+        ],
+        "specialAttacks": ["melvorF:CrushingDoubleSlash"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ancient_2H_Sword_5",
+        "name": "Ancient 2H Swordundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/weapon_2h_ancient.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "tier": "ancient",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -8 },
+          { "key": "slashAttackBonus", "value": 212 },
+          { "key": "blockAttackBonus", "value": 212 },
+          { "key": "meleeStrengthBonus", "value": 361 },
+          { "key": "meleeDefenceBonus", "value": 37 }
+        ],
+        "specialAttacks": ["melvorF:CrushingDoubleSlash"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Big_Ron_1",
+        "name": "Big ol Ron +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/big_ron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "Created by Patreon (dog18speed) +100% Chance To Double Loot in Combat. For every 2000 base Maximum Hitpoints the enemy has (Capped at 10000): +9% Melee Strength Bonus from Equipment, +3% of Maximum Hit added to Minimum Hit and +1% Damage Reduction. Bonus is doubled if fighting a boss.",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 138 },
+          { "key": "blockAttackBonus", "value": 138 },
+          { "key": "meleeStrengthBonus", "value": 275 },
+          { "key": "meleeDefenceBonus", "value": 21 }
+        ],
+        "modifiers": { "increasedChanceToDoubleLootCombat": 100 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "IsFighting", "character": "Player", "inverted": false },
+            "modifiers": { "bigRon": 1 }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Big_Ron_2",
+        "name": "Big ol Ron +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/big_ron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "Created by Patreon (dog18speed) +100% Chance To Double Loot in Combat. For every 2000 base Maximum Hitpoints the enemy has (Capped at 10000): +9% Melee Strength Bonus from Equipment, +3% of Maximum Hit added to Minimum Hit and +1% Damage Reduction. Bonus is doubled if fighting a boss.",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -5 },
+          { "key": "slashAttackBonus", "value": 165 },
+          { "key": "blockAttackBonus", "value": 165 },
+          { "key": "meleeStrengthBonus", "value": 330 },
+          { "key": "meleeDefenceBonus", "value": 25 }
+        ],
+        "modifiers": { "increasedChanceToDoubleLootCombat": 100 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "IsFighting", "character": "Player", "inverted": false },
+            "modifiers": { "bigRon": 1 }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Big_Ron_3",
+        "name": "Big ol Ron +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/big_ron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "Created by Patreon (dog18speed) +100% Chance To Double Loot in Combat. For every 2000 base Maximum Hitpoints the enemy has (Capped at 10000): +9% Melee Strength Bonus from Equipment, +3% of Maximum Hit added to Minimum Hit and +1% Damage Reduction. Bonus is doubled if fighting a boss.",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -6 },
+          { "key": "slashAttackBonus", "value": 193 },
+          { "key": "blockAttackBonus", "value": 193 },
+          { "key": "meleeStrengthBonus", "value": 385 },
+          { "key": "meleeDefenceBonus", "value": 29 }
+        ],
+        "modifiers": { "increasedChanceToDoubleLootCombat": 100 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "IsFighting", "character": "Player", "inverted": false },
+            "modifiers": { "bigRon": 1 }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Big_Ron_4",
+        "name": "Big ol Ron +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/big_ron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "Created by Patreon (dog18speed) +100% Chance To Double Loot in Combat. For every 2000 base Maximum Hitpoints the enemy has (Capped at 10000): +9% Melee Strength Bonus from Equipment, +3% of Maximum Hit added to Minimum Hit and +1% Damage Reduction. Bonus is doubled if fighting a boss.",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -7 },
+          { "key": "slashAttackBonus", "value": 220 },
+          { "key": "blockAttackBonus", "value": 220 },
+          { "key": "meleeStrengthBonus", "value": 440 },
+          { "key": "meleeDefenceBonus", "value": 33 }
+        ],
+        "modifiers": { "increasedChanceToDoubleLootCombat": 100 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "IsFighting", "character": "Player", "inverted": false },
+            "modifiers": { "bigRon": 1 }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Big_Ron_5",
+        "name": "Big ol Ronundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/big_ron.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1250000,
+        "customDescription": "Created by Patreon (dog18speed) +100% Chance To Double Loot in Combat. For every 2000 base Maximum Hitpoints the enemy has (Capped at 10000): +9% Melee Strength Bonus from Equipment, +3% of Maximum Hit added to Minimum Hit and +1% Damage Reduction. Bonus is doubled if fighting a boss.",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -8 },
+          { "key": "slashAttackBonus", "value": 248 },
+          { "key": "blockAttackBonus", "value": 248 },
+          { "key": "meleeStrengthBonus", "value": 495 },
+          { "key": "meleeDefenceBonus", "value": 37 }
+        ],
+        "modifiers": { "increasedChanceToDoubleLootCombat": 100 },
+        "conditionalModifiers": [
+          {
+            "condition": { "type": "IsFighting", "character": "Player", "inverted": false },
+            "modifiers": { "bigRon": 1 }
+          }
+        ],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Twin_Exiles_1",
+        "name": "Twin Exiles +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/twin_exiles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "customDescription": "Created by Patreon (Jarose)",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2000 },
+          { "key": "stabAttackBonus", "value": 71 },
+          { "key": "slashAttackBonus", "value": 71 },
+          { "key": "blockAttackBonus", "value": 71 },
+          { "key": "meleeStrengthBonus", "value": 24 },
+          { "key": "meleeDefenceBonus", "value": 3 }
+        ],
+        "specialAttacks": ["melvorF:DualAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Twin_Exiles_2",
+        "name": "Twin Exiles +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/twin_exiles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "customDescription": "Created by Patreon (Jarose)",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2000 },
+          { "key": "stabAttackBonus", "value": 85 },
+          { "key": "slashAttackBonus", "value": 85 },
+          { "key": "blockAttackBonus", "value": 85 },
+          { "key": "meleeStrengthBonus", "value": 28 },
+          { "key": "meleeDefenceBonus", "value": 3 }
+        ],
+        "specialAttacks": ["melvorF:DualAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Twin_Exiles_3",
+        "name": "Twin Exiles +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/twin_exiles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "customDescription": "Created by Patreon (Jarose)",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2000 },
+          { "key": "stabAttackBonus", "value": 99 },
+          { "key": "slashAttackBonus", "value": 99 },
+          { "key": "blockAttackBonus", "value": 99 },
+          { "key": "meleeStrengthBonus", "value": 33 },
+          { "key": "meleeDefenceBonus", "value": 4 }
+        ],
+        "specialAttacks": ["melvorF:DualAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Twin_Exiles_4",
+        "name": "Twin Exiles +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/twin_exiles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "customDescription": "Created by Patreon (Jarose)",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2000 },
+          { "key": "stabAttackBonus", "value": 113 },
+          { "key": "slashAttackBonus", "value": 113 },
+          { "key": "blockAttackBonus", "value": 113 },
+          { "key": "meleeStrengthBonus", "value": 38 },
+          { "key": "meleeDefenceBonus", "value": 4 }
+        ],
+        "specialAttacks": ["melvorF:DualAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Twin_Exiles_5",
+        "name": "Twin Exilesundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/twin_exiles.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 225000,
+        "customDescription": "Created by Patreon (Jarose)",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2000 },
+          { "key": "stabAttackBonus", "value": 127 },
+          { "key": "slashAttackBonus", "value": 127 },
+          { "key": "blockAttackBonus", "value": 127 },
+          { "key": "meleeStrengthBonus", "value": 43 },
+          { "key": "meleeDefenceBonus", "value": 5 }
+        ],
+        "specialAttacks": ["melvorF:DualAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Miolite_Sceptre_1",
+        "name": "Miolite Sceptre +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/miolite_sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6420,
+        "tier": "miolite",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 40 },
+          { "key": "slashAttackBonus", "value": 40 },
+          { "key": "blockAttackBonus", "value": 40 },
+          { "key": "meleeStrengthBonus", "value": 44 }
+        ],
+        "modifiers": { "allowAttackAugmentingMagic": 1 },
+        "specialAttacks": ["melvorF:DrowsySpores"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Miolite_Sceptre_2",
+        "name": "Miolite Sceptre +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/miolite_sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6420,
+        "tier": "miolite",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 48 },
+          { "key": "slashAttackBonus", "value": 48 },
+          { "key": "blockAttackBonus", "value": 48 },
+          { "key": "meleeStrengthBonus", "value": 52 }
+        ],
+        "modifiers": { "allowAttackAugmentingMagic": 1 },
+        "specialAttacks": ["melvorF:DrowsySpores"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Miolite_Sceptre_3",
+        "name": "Miolite Sceptre +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/miolite_sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6420,
+        "tier": "miolite",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 56 },
+          { "key": "slashAttackBonus", "value": 56 },
+          { "key": "blockAttackBonus", "value": 56 },
+          { "key": "meleeStrengthBonus", "value": 61 }
+        ],
+        "modifiers": { "allowAttackAugmentingMagic": 1 },
+        "specialAttacks": ["melvorF:DrowsySpores"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Miolite_Sceptre_4",
+        "name": "Miolite Sceptre +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/miolite_sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6420,
+        "tier": "miolite",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 64 },
+          { "key": "slashAttackBonus", "value": 64 },
+          { "key": "blockAttackBonus", "value": 64 },
+          { "key": "meleeStrengthBonus", "value": 70 }
+        ],
+        "modifiers": { "allowAttackAugmentingMagic": 1 },
+        "specialAttacks": ["melvorF:DrowsySpores"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Miolite_Sceptre_5",
+        "name": "Miolite Sceptreundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/miolite_sceptre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6420,
+        "tier": "miolite",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 72 },
+          { "key": "slashAttackBonus", "value": 72 },
+          { "key": "blockAttackBonus", "value": 72 },
+          { "key": "meleeStrengthBonus", "value": 79 }
+        ],
+        "modifiers": { "allowAttackAugmentingMagic": 1 },
+        "specialAttacks": ["melvorF:DrowsySpores"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Sabre_1",
+        "name": "Desert Sabre +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/desert_sabre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6500,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 8 },
+          { "key": "slashAttackBonus", "value": 64 },
+          { "key": "blockAttackBonus", "value": 8 },
+          { "key": "meleeStrengthBonus", "value": 66 }
+        ],
+        "specialAttacks": ["melvorF:Quicksand"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Sabre_2",
+        "name": "Desert Sabre +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/desert_sabre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6500,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 9 },
+          { "key": "slashAttackBonus", "value": 76 },
+          { "key": "blockAttackBonus", "value": 9 },
+          { "key": "meleeStrengthBonus", "value": 79 }
+        ],
+        "specialAttacks": ["melvorF:Quicksand"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Sabre_3",
+        "name": "Desert Sabre +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/desert_sabre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6500,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 11 },
+          { "key": "slashAttackBonus", "value": 89 },
+          { "key": "blockAttackBonus", "value": 11 },
+          { "key": "meleeStrengthBonus", "value": 92 }
+        ],
+        "specialAttacks": ["melvorF:Quicksand"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Sabre_4",
+        "name": "Desert Sabre +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/desert_sabre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6500,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 12 },
+          { "key": "slashAttackBonus", "value": 102 },
+          { "key": "blockAttackBonus", "value": 12 },
+          { "key": "meleeStrengthBonus", "value": 105 }
+        ],
+        "specialAttacks": ["melvorF:Quicksand"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Sabre_5",
+        "name": "Desert Sabreundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/desert_sabre.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 6500,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 14 },
+          { "key": "slashAttackBonus", "value": 115 },
+          { "key": "blockAttackBonus", "value": 14 },
+          { "key": "meleeStrengthBonus", "value": 118 }
+        ],
+        "specialAttacks": ["melvorF:Quicksand"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Desert_Shortbow_1",
+        "name": "Desert Shortbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/desert_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3240,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 65 },
+          { "key": "rangedStrengthBonus", "value": 50 }
+        ],
+        "specialAttacks": ["melvorF:Sandblast"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Desert_Shortbow_2",
+        "name": "Desert Shortbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/desert_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3240,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 78 },
+          { "key": "rangedStrengthBonus", "value": 60 }
+        ],
+        "specialAttacks": ["melvorF:Sandblast"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Desert_Shortbow_3",
+        "name": "Desert Shortbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/desert_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3240,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 91 },
+          { "key": "rangedStrengthBonus", "value": 70 }
+        ],
+        "specialAttacks": ["melvorF:Sandblast"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Desert_Shortbow_4",
+        "name": "Desert Shortbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/desert_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3240,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 104 },
+          { "key": "rangedStrengthBonus", "value": 80 }
+        ],
+        "specialAttacks": ["melvorF:Sandblast"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Desert_Shortbow_5",
+        "name": "Desert Shortbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/desert_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3240,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 50 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 117 },
+          { "key": "rangedStrengthBonus", "value": 90 }
+        ],
+        "specialAttacks": ["melvorF:Sandblast"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Stormsnap_1",
+        "name": "Stormsnap +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/stormsnap.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500000,
+        "customDescription": "Created by Patreon (Eusmusia) Strength Bonus and Accuracy Rating scales based on Enemy Magic Level",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 80 }],
+        "equipmentStats": [{ "key": "attackSpeed", "value": 3000 }],
+        "specialAttacks": ["melvorF:Stormsnap"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Stormsnap_2",
+        "name": "Stormsnap +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/stormsnap.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500000,
+        "customDescription": "Created by Patreon (Eusmusia) Strength Bonus and Accuracy Rating scales based on Enemy Magic Level",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 80 }],
+        "equipmentStats": [{ "key": "attackSpeed", "value": 3000 }],
+        "specialAttacks": ["melvorF:Stormsnap"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Stormsnap_3",
+        "name": "Stormsnap +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/stormsnap.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500000,
+        "customDescription": "Created by Patreon (Eusmusia) Strength Bonus and Accuracy Rating scales based on Enemy Magic Level",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 80 }],
+        "equipmentStats": [{ "key": "attackSpeed", "value": 3000 }],
+        "specialAttacks": ["melvorF:Stormsnap"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Stormsnap_4",
+        "name": "Stormsnap +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/stormsnap.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500000,
+        "customDescription": "Created by Patreon (Eusmusia) Strength Bonus and Accuracy Rating scales based on Enemy Magic Level",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 80 }],
+        "equipmentStats": [{ "key": "attackSpeed", "value": 3000 }],
+        "specialAttacks": ["melvorF:Stormsnap"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Stormsnap_5",
+        "name": "Stormsnapundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/stormsnap.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 1500000,
+        "customDescription": "Created by Patreon (Eusmusia) Strength Bonus and Accuracy Rating scales based on Enemy Magic Level",
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 80 }],
+        "equipmentStats": [{ "key": "attackSpeed", "value": 3000 }],
+        "specialAttacks": ["melvorF:Stormsnap"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Darksteel_Dagger_1",
+        "name": "Darksteel Dagger +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/darksteel_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25900,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 60 },
+          { "key": "slashAttackBonus", "value": 30 },
+          { "key": "blockAttackBonus", "value": 60 },
+          { "key": "meleeStrengthBonus", "value": 50 }
+        ],
+        "specialAttacks": ["melvorF:DeadlyCut"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Darksteel_Dagger_2",
+        "name": "Darksteel Dagger +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/darksteel_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25900,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 72 },
+          { "key": "slashAttackBonus", "value": 36 },
+          { "key": "blockAttackBonus", "value": 72 },
+          { "key": "meleeStrengthBonus", "value": 60 }
+        ],
+        "specialAttacks": ["melvorF:DeadlyCut"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Darksteel_Dagger_3",
+        "name": "Darksteel Dagger +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/darksteel_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25900,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 84 },
+          { "key": "slashAttackBonus", "value": 42 },
+          { "key": "blockAttackBonus", "value": 84 },
+          { "key": "meleeStrengthBonus", "value": 70 }
+        ],
+        "specialAttacks": ["melvorF:DeadlyCut"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Darksteel_Dagger_4",
+        "name": "Darksteel Dagger +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/darksteel_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25900,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 96 },
+          { "key": "slashAttackBonus", "value": 48 },
+          { "key": "blockAttackBonus", "value": 96 },
+          { "key": "meleeStrengthBonus", "value": 80 }
+        ],
+        "specialAttacks": ["melvorF:DeadlyCut"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Darksteel_Dagger_5",
+        "name": "Darksteel Daggerundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/darksteel_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25900,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 108 },
+          { "key": "slashAttackBonus", "value": 54 },
+          { "key": "blockAttackBonus", "value": 108 },
+          { "key": "meleeStrengthBonus", "value": 90 }
+        ],
+        "specialAttacks": ["melvorF:DeadlyCut"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sanguine_Blade_1",
+        "name": "Sanguine Blade +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/sanguine_blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 365000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 124 },
+          { "key": "blockAttackBonus", "value": 124 },
+          { "key": "meleeStrengthBonus", "value": 211 },
+          { "key": "meleeDefenceBonus", "value": 23 }
+        ],
+        "specialAttacks": ["melvorF:Rend"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sanguine_Blade_2",
+        "name": "Sanguine Blade +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/sanguine_blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 365000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -5 },
+          { "key": "slashAttackBonus", "value": 148 },
+          { "key": "blockAttackBonus", "value": 148 },
+          { "key": "meleeStrengthBonus", "value": 253 },
+          { "key": "meleeDefenceBonus", "value": 27 }
+        ],
+        "specialAttacks": ["melvorF:Rend"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sanguine_Blade_3",
+        "name": "Sanguine Blade +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/sanguine_blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 365000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -6 },
+          { "key": "slashAttackBonus", "value": 173 },
+          { "key": "blockAttackBonus", "value": 173 },
+          { "key": "meleeStrengthBonus", "value": 295 },
+          { "key": "meleeDefenceBonus", "value": 32 }
+        ],
+        "specialAttacks": ["melvorF:Rend"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sanguine_Blade_4",
+        "name": "Sanguine Blade +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/sanguine_blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 365000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -7 },
+          { "key": "slashAttackBonus", "value": 198 },
+          { "key": "blockAttackBonus", "value": 198 },
+          { "key": "meleeStrengthBonus", "value": 337 },
+          { "key": "meleeDefenceBonus", "value": 36 }
+        ],
+        "specialAttacks": ["melvorF:Rend"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Sanguine_Blade_5",
+        "name": "Sanguine Bladeundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/sanguine_blade.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 365000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 80 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3600 },
+          { "key": "stabAttackBonus", "value": -8 },
+          { "key": "slashAttackBonus", "value": 223 },
+          { "key": "blockAttackBonus", "value": 223 },
+          { "key": "meleeStrengthBonus", "value": 379 },
+          { "key": "meleeDefenceBonus", "value": 41 }
+        ],
+        "specialAttacks": ["melvorF:Rend"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Infernal_Claw_1",
+        "name": "Infernal Claw +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/infernal_claw.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 75 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 71 },
+          { "key": "slashAttackBonus", "value": 77 },
+          { "key": "blockAttackBonus", "value": 71 },
+          { "key": "meleeStrengthBonus", "value": 81 },
+          { "key": "meleeDefenceBonus", "value": 39 }
+        ],
+        "specialAttacks": ["melvorF:QuadSwipe"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Infernal_Claw_2",
+        "name": "Infernal Claw +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/infernal_claw.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 75 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 85 },
+          { "key": "slashAttackBonus", "value": 92 },
+          { "key": "blockAttackBonus", "value": 85 },
+          { "key": "meleeStrengthBonus", "value": 97 },
+          { "key": "meleeDefenceBonus", "value": 46 }
+        ],
+        "specialAttacks": ["melvorF:QuadSwipe"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Infernal_Claw_3",
+        "name": "Infernal Claw +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/infernal_claw.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 75 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 99 },
+          { "key": "slashAttackBonus", "value": 107 },
+          { "key": "blockAttackBonus", "value": 99 },
+          { "key": "meleeStrengthBonus", "value": 113 },
+          { "key": "meleeDefenceBonus", "value": 54 }
+        ],
+        "specialAttacks": ["melvorF:QuadSwipe"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Infernal_Claw_4",
+        "name": "Infernal Claw +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/infernal_claw.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 75 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 113 },
+          { "key": "slashAttackBonus", "value": 123 },
+          { "key": "blockAttackBonus", "value": 113 },
+          { "key": "meleeStrengthBonus", "value": 129 },
+          { "key": "meleeDefenceBonus", "value": 62 }
+        ],
+        "specialAttacks": ["melvorF:QuadSwipe"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Infernal_Claw_5",
+        "name": "Infernal Clawundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/infernal_claw.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2500000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 75 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 127 },
+          { "key": "slashAttackBonus", "value": 138 },
+          { "key": "blockAttackBonus", "value": 127 },
+          { "key": "meleeStrengthBonus", "value": 145 },
+          { "key": "meleeDefenceBonus", "value": 70 }
+        ],
+        "specialAttacks": ["melvorF:QuadSwipe"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Tidal_Edge_1",
+        "name": "Tidal Edge +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/tidal_edge.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3200000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 89 },
+          { "key": "slashAttackBonus", "value": 120 },
+          { "key": "blockAttackBonus", "value": 89 },
+          { "key": "meleeStrengthBonus", "value": 100 }
+        ],
+        "specialAttacks": ["melvorF:TidalWave"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Tidal_Edge_2",
+        "name": "Tidal Edge +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/tidal_edge.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3200000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 106 },
+          { "key": "slashAttackBonus", "value": 144 },
+          { "key": "blockAttackBonus", "value": 106 },
+          { "key": "meleeStrengthBonus", "value": 120 }
+        ],
+        "specialAttacks": ["melvorF:TidalWave"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Tidal_Edge_3",
+        "name": "Tidal Edge +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/tidal_edge.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3200000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 124 },
+          { "key": "slashAttackBonus", "value": 168 },
+          { "key": "blockAttackBonus", "value": 124 },
+          { "key": "meleeStrengthBonus", "value": 140 }
+        ],
+        "specialAttacks": ["melvorF:TidalWave"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Tidal_Edge_4",
+        "name": "Tidal Edge +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/tidal_edge.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3200000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 142 },
+          { "key": "slashAttackBonus", "value": 192 },
+          { "key": "blockAttackBonus", "value": 142 },
+          { "key": "meleeStrengthBonus", "value": 160 }
+        ],
+        "specialAttacks": ["melvorF:TidalWave"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Tidal_Edge_5",
+        "name": "Tidal Edgeundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/tidal_edge.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3200000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2400 },
+          { "key": "stabAttackBonus", "value": 160 },
+          { "key": "slashAttackBonus", "value": 216 },
+          { "key": "blockAttackBonus", "value": 160 },
+          { "key": "meleeStrengthBonus", "value": 180 }
+        ],
+        "specialAttacks": ["melvorF:TidalWave"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ocean_Song_1",
+        "name": "Ocean Song +1",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "melvor:assets/media/bank/ocean_song.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2600000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 4 when equipped as a Weapon.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "magicAttackBonus", "value": 38 },
+          { "key": "magicDamageBonus", "value": 60 },
+          { "key": "magicDefenceBonus", "value": 38 }
+        ],
+        "specialAttacks": ["melvorF:OceanSong"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 4 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Ocean_Song_2",
+        "name": "Ocean Song +2",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "melvor:assets/media/bank/ocean_song.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2600000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 4 when equipped as a Weapon.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "magicAttackBonus", "value": 45 },
+          { "key": "magicDamageBonus", "value": 72 },
+          { "key": "magicDefenceBonus", "value": 45 }
+        ],
+        "specialAttacks": ["melvorF:OceanSong"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 4 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Ocean_Song_3",
+        "name": "Ocean Song +3",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "melvor:assets/media/bank/ocean_song.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2600000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 4 when equipped as a Weapon.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "magicAttackBonus", "value": 53 },
+          { "key": "magicDamageBonus", "value": 84 },
+          { "key": "magicDefenceBonus", "value": 53 }
+        ],
+        "specialAttacks": ["melvorF:OceanSong"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 4 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Ocean_Song_4",
+        "name": "Ocean Song +5",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "melvor:assets/media/bank/ocean_song.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2600000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 4 when equipped as a Weapon.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "magicAttackBonus", "value": 60 },
+          { "key": "magicDamageBonus", "value": 96 },
+          { "key": "magicDefenceBonus", "value": 60 }
+        ],
+        "specialAttacks": ["melvorF:OceanSong"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 4 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Ocean_Song_5",
+        "name": "Ocean Songundefined",
+        "category": "Combat",
+        "type": "Magic Wand",
+        "media": "melvor:assets/media/bank/ocean_song.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 2600000,
+        "customDescription": "Reduces the Water Rune cost of Magic Spells by 4 when equipped as a Weapon.",
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "magicAttackBonus", "value": 68 },
+          { "key": "magicDamageBonus", "value": 108 },
+          { "key": "magicDefenceBonus", "value": 68 }
+        ],
+        "specialAttacks": ["melvorF:OceanSong"],
+        "providedRunes": [{ "id": "melvorD:Water_Rune", "quantity": 4 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Shockwave_1",
+        "name": "Shockwave +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/shockwave.svg?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3400000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 81 },
+          { "key": "rangedStrengthBonus", "value": 142 }
+        ],
+        "specialAttacks": ["melvorF:Shockwave"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Shockwave_2",
+        "name": "Shockwave +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/shockwave.svg?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3400000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 97 },
+          { "key": "rangedStrengthBonus", "value": 170 }
+        ],
+        "specialAttacks": ["melvorF:Shockwave"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Shockwave_3",
+        "name": "Shockwave +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/shockwave.svg?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3400000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 113 },
+          { "key": "rangedStrengthBonus", "value": 198 }
+        ],
+        "specialAttacks": ["melvorF:Shockwave"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Shockwave_4",
+        "name": "Shockwave +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/shockwave.svg?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3400000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 129 },
+          { "key": "rangedStrengthBonus", "value": 227 }
+        ],
+        "specialAttacks": ["melvorF:Shockwave"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "Shockwave_5",
+        "name": "Shockwaveundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/shockwave.svg?2",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 3400000,
+        "tier": "misc",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 90 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3200 },
+          { "key": "rangedAttackBonus", "value": 145 },
+          { "key": "rangedStrengthBonus", "value": 255 }
+        ],
+        "specialAttacks": ["melvorF:Shockwave"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Bolts"
+      },
+      {
+        "id": "War_Axe_1",
+        "name": "War Axe +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/war_axe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16350,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3300 },
+          { "key": "stabAttackBonus", "value": -2 },
+          { "key": "slashAttackBonus", "value": 53 },
+          { "key": "blockAttackBonus", "value": 53 },
+          { "key": "meleeStrengthBonus", "value": 149 }
+        ],
+        "specialAttacks": ["melvorF:DoubleEdged"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "War_Axe_2",
+        "name": "War Axe +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/war_axe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16350,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3300 },
+          { "key": "stabAttackBonus", "value": -3 },
+          { "key": "slashAttackBonus", "value": 63 },
+          { "key": "blockAttackBonus", "value": 63 },
+          { "key": "meleeStrengthBonus", "value": 178 }
+        ],
+        "specialAttacks": ["melvorF:DoubleEdged"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "War_Axe_3",
+        "name": "War Axe +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/war_axe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16350,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3300 },
+          { "key": "stabAttackBonus", "value": -3 },
+          { "key": "slashAttackBonus", "value": 74 },
+          { "key": "blockAttackBonus", "value": 74 },
+          { "key": "meleeStrengthBonus", "value": 208 }
+        ],
+        "specialAttacks": ["melvorF:DoubleEdged"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "War_Axe_4",
+        "name": "War Axe +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/war_axe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16350,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3300 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 84 },
+          { "key": "blockAttackBonus", "value": 84 },
+          { "key": "meleeStrengthBonus", "value": 238 }
+        ],
+        "specialAttacks": ["melvorF:DoubleEdged"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "War_Axe_5",
+        "name": "War Axeundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/war_axe.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 16350,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3300 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 95 },
+          { "key": "blockAttackBonus", "value": 95 },
+          { "key": "meleeStrengthBonus", "value": 268 }
+        ],
+        "specialAttacks": ["melvorF:DoubleEdged"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Warberd_1",
+        "name": "Warberd +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/Warberd.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24300,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "stabAttackBonus", "value": 67 },
+          { "key": "slashAttackBonus", "value": -3 },
+          { "key": "blockAttackBonus", "value": 67 },
+          { "key": "meleeStrengthBonus", "value": 179 }
+        ],
+        "specialAttacks": ["melvorF:SwiftAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Warberd_2",
+        "name": "Warberd +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/Warberd.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24300,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "stabAttackBonus", "value": 80 },
+          { "key": "slashAttackBonus", "value": -4 },
+          { "key": "blockAttackBonus", "value": 80 },
+          { "key": "meleeStrengthBonus", "value": 214 }
+        ],
+        "specialAttacks": ["melvorF:SwiftAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Warberd_3",
+        "name": "Warberd +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/Warberd.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24300,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "stabAttackBonus", "value": 93 },
+          { "key": "slashAttackBonus", "value": -5 },
+          { "key": "blockAttackBonus", "value": 93 },
+          { "key": "meleeStrengthBonus", "value": 250 }
+        ],
+        "specialAttacks": ["melvorF:SwiftAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Warberd_4",
+        "name": "Warberd +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/Warberd.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24300,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "stabAttackBonus", "value": 107 },
+          { "key": "slashAttackBonus", "value": -5 },
+          { "key": "blockAttackBonus", "value": 107 },
+          { "key": "meleeStrengthBonus", "value": 286 }
+        ],
+        "specialAttacks": ["melvorF:SwiftAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Warberd_5",
+        "name": "Warberdundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/Warberd.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 24300,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 70 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "stabAttackBonus", "value": 120 },
+          { "key": "slashAttackBonus", "value": -6 },
+          { "key": "blockAttackBonus", "value": 120 },
+          { "key": "meleeStrengthBonus", "value": 322 }
+        ],
+        "specialAttacks": ["melvorF:SwiftAttack"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Natures_Wrath_Staff_1",
+        "name": "Nature's Wrath Staff +1",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/natures_wrath_staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110000,
+        "customDescription": "Reduces the Nature Rune cost of spells by 1, and grants access to the Nature's Wrath Spell. When equipped with Nature's Blessing Ring: +50% Hitpoint Regeneration, +40 Maximum Hitpoints and +30% of Maximum Hit added to Minimum Hit when using Nature spells.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 18 },
+          { "key": "magicDefenceBonus", "value": 18 },
+          { "key": "magicDamageBonus", "value": 6 }
+        ],
+        "providedRunes": [{ "id": "melvorF:Nature_Rune", "quantity": 1 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Natures_Wrath_Staff_2",
+        "name": "Nature's Wrath Staff +2",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/natures_wrath_staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110000,
+        "customDescription": "Reduces the Nature Rune cost of spells by 1, and grants access to the Nature's Wrath Spell. When equipped with Nature's Blessing Ring: +50% Hitpoint Regeneration, +40 Maximum Hitpoints and +30% of Maximum Hit added to Minimum Hit when using Nature spells.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 21 },
+          { "key": "magicDefenceBonus", "value": 21 },
+          { "key": "magicDamageBonus", "value": 7 }
+        ],
+        "providedRunes": [{ "id": "melvorF:Nature_Rune", "quantity": 1 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Natures_Wrath_Staff_3",
+        "name": "Nature's Wrath Staff +3",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/natures_wrath_staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110000,
+        "customDescription": "Reduces the Nature Rune cost of spells by 1, and grants access to the Nature's Wrath Spell. When equipped with Nature's Blessing Ring: +50% Hitpoint Regeneration, +40 Maximum Hitpoints and +30% of Maximum Hit added to Minimum Hit when using Nature spells.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 25 },
+          { "key": "magicDefenceBonus", "value": 25 },
+          { "key": "magicDamageBonus", "value": 8 }
+        ],
+        "providedRunes": [{ "id": "melvorF:Nature_Rune", "quantity": 1 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Natures_Wrath_Staff_4",
+        "name": "Nature's Wrath Staff +5",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/natures_wrath_staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110000,
+        "customDescription": "Reduces the Nature Rune cost of spells by 1, and grants access to the Nature's Wrath Spell. When equipped with Nature's Blessing Ring: +50% Hitpoint Regeneration, +40 Maximum Hitpoints and +30% of Maximum Hit added to Minimum Hit when using Nature spells.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 28 },
+          { "key": "magicDefenceBonus", "value": 28 },
+          { "key": "magicDamageBonus", "value": 9 }
+        ],
+        "providedRunes": [{ "id": "melvorF:Nature_Rune", "quantity": 1 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Natures_Wrath_Staff_5",
+        "name": "Nature's Wrath Staffundefined",
+        "category": "Combat",
+        "type": "Magic Staff",
+        "media": "melvor:assets/media/bank/natures_wrath_staff.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 110000,
+        "customDescription": "Reduces the Nature Rune cost of spells by 1, and grants access to the Nature's Wrath Spell. When equipped with Nature's Blessing Ring: +50% Hitpoint Regeneration, +40 Maximum Hitpoints and +30% of Maximum Hit added to Minimum Hit when using Nature spells.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Magic", "level": 65 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3000 },
+          { "key": "magicAttackBonus", "value": 32 },
+          { "key": "magicDefenceBonus", "value": 32 },
+          { "key": "magicDamageBonus", "value": 10 }
+        ],
+        "providedRunes": [{ "id": "melvorF:Nature_Rune", "quantity": 1 }],
+        "itemType": "Weapon",
+        "attackType": "magic"
+      },
+      {
+        "id": "Poisoned_Shortbow_1",
+        "name": "Poisoned Shortbow +1",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/poisoned_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 47650,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 68 },
+          { "key": "rangedStrengthBonus", "value": 50 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Poisoned_Shortbow_2",
+        "name": "Poisoned Shortbow +2",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/poisoned_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 47650,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 81 },
+          { "key": "rangedStrengthBonus", "value": 60 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Poisoned_Shortbow_3",
+        "name": "Poisoned Shortbow +3",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/poisoned_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 47650,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 95 },
+          { "key": "rangedStrengthBonus", "value": 70 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Poisoned_Shortbow_4",
+        "name": "Poisoned Shortbow +5",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/poisoned_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 47650,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 108 },
+          { "key": "rangedStrengthBonus", "value": 80 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Poisoned_Shortbow_5",
+        "name": "Poisoned Shortbowundefined",
+        "category": "Combat",
+        "type": "Ranged Weapon",
+        "media": "melvor:assets/media/bank/poisoned_shortbow.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 47650,
+        "customDescription": "Requires Arrows as Ammunition.",
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Ranged", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2600 },
+          { "key": "rangedAttackBonus", "value": 122 },
+          { "key": "rangedStrengthBonus", "value": 90 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "ranged",
+        "ammoTypeRequired": "Arrows"
+      },
+      {
+        "id": "Poisoned_Dagger_1",
+        "name": "Poisoned Dagger +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/poisoned_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 48500,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 50 },
+          { "key": "slashAttackBonus", "value": 25 },
+          { "key": "blockAttackBonus", "value": 50 },
+          { "key": "meleeStrengthBonus", "value": 40 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Poisoned_Dagger_2",
+        "name": "Poisoned Dagger +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/poisoned_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 48500,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 60 },
+          { "key": "slashAttackBonus", "value": 30 },
+          { "key": "blockAttackBonus", "value": 60 },
+          { "key": "meleeStrengthBonus", "value": 48 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Poisoned_Dagger_3",
+        "name": "Poisoned Dagger +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/poisoned_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 48500,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 70 },
+          { "key": "slashAttackBonus", "value": 35 },
+          { "key": "blockAttackBonus", "value": 70 },
+          { "key": "meleeStrengthBonus", "value": 56 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Poisoned_Dagger_4",
+        "name": "Poisoned Dagger +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/poisoned_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 48500,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 80 },
+          { "key": "slashAttackBonus", "value": 40 },
+          { "key": "blockAttackBonus", "value": 80 },
+          { "key": "meleeStrengthBonus", "value": 64 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Poisoned_Dagger_5",
+        "name": "Poisoned Daggerundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/poisoned_dagger.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 48500,
+        "tier": "none",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": [],
+        "equipRequirements": [{ "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 60 }],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 2200 },
+          { "key": "stabAttackBonus", "value": 90 },
+          { "key": "slashAttackBonus", "value": 45 },
+          { "key": "blockAttackBonus", "value": 90 },
+          { "key": "meleeStrengthBonus", "value": 72 }
+        ],
+        "specialAttacks": ["melvorF:PoisonedHit"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ultima_Godsword_1",
+        "name": "Ultima Godsword +1",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/ultima_godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25000000,
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          { "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 },
+          { "type": "SkillLevel", "skillID": "melvorD:Strength", "level": 90 }
+        ],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3800 },
+          { "key": "stabAttackBonus", "value": -3 },
+          { "key": "slashAttackBonus", "value": 174 },
+          { "key": "blockAttackBonus", "value": 174 },
+          { "key": "meleeStrengthBonus", "value": 365 },
+          { "key": "meleeDefenceBonus", "value": 30 },
+          { "key": "damageReduction", "value": 8 }
+        ],
+        "specialAttacks": ["melvorF:Flurry", "melvorF:IcePrison", "melvorF:CrushingBlow", "melvorF:Infernum"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ultima_Godsword_2",
+        "name": "Ultima Godsword +2",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/ultima_godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25000000,
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          { "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 },
+          { "type": "SkillLevel", "skillID": "melvorD:Strength", "level": 90 }
+        ],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3800 },
+          { "key": "stabAttackBonus", "value": -4 },
+          { "key": "slashAttackBonus", "value": 208 },
+          { "key": "blockAttackBonus", "value": 208 },
+          { "key": "meleeStrengthBonus", "value": 438 },
+          { "key": "meleeDefenceBonus", "value": 36 },
+          { "key": "damageReduction", "value": 8 }
+        ],
+        "specialAttacks": ["melvorF:Flurry", "melvorF:IcePrison", "melvorF:CrushingBlow", "melvorF:Infernum"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ultima_Godsword_3",
+        "name": "Ultima Godsword +3",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/ultima_godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25000000,
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          { "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 },
+          { "type": "SkillLevel", "skillID": "melvorD:Strength", "level": 90 }
+        ],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3800 },
+          { "key": "stabAttackBonus", "value": -5 },
+          { "key": "slashAttackBonus", "value": 243 },
+          { "key": "blockAttackBonus", "value": 243 },
+          { "key": "meleeStrengthBonus", "value": 510 },
+          { "key": "meleeDefenceBonus", "value": 42 },
+          { "key": "damageReduction", "value": 8 }
+        ],
+        "specialAttacks": ["melvorF:Flurry", "melvorF:IcePrison", "melvorF:CrushingBlow", "melvorF:Infernum"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ultima_Godsword_4",
+        "name": "Ultima Godsword +5",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/ultima_godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25000000,
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          { "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 },
+          { "type": "SkillLevel", "skillID": "melvorD:Strength", "level": 90 }
+        ],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3800 },
+          { "key": "stabAttackBonus", "value": -5 },
+          { "key": "slashAttackBonus", "value": 278 },
+          { "key": "blockAttackBonus", "value": 278 },
+          { "key": "meleeStrengthBonus", "value": 584 },
+          { "key": "meleeDefenceBonus", "value": 48 },
+          { "key": "damageReduction", "value": 8 }
+        ],
+        "specialAttacks": ["melvorF:Flurry", "melvorF:IcePrison", "melvorF:CrushingBlow", "melvorF:Infernum"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      },
+      {
+        "id": "Ultima_Godsword_5",
+        "name": "Ultima Godswordundefined",
+        "category": "Combat",
+        "type": "Weapon",
+        "media": "melvor:assets/media/bank/ultima_godsword.png",
+        "ignoreCompletion": false,
+        "obtainFromItemLog": false,
+        "golbinRaidExclusive": false,
+        "sellsFor": 25000000,
+        "tier": "god",
+        "validSlots": ["Weapon"],
+        "occupiesSlots": ["Shield"],
+        "equipRequirements": [
+          { "type": "SkillLevel", "skillID": "melvorD:Attack", "level": 90 },
+          { "type": "SkillLevel", "skillID": "melvorD:Strength", "level": 90 }
+        ],
+        "equipmentStats": [
+          { "key": "attackSpeed", "value": 3800 },
+          { "key": "stabAttackBonus", "value": -6 },
+          { "key": "slashAttackBonus", "value": 313 },
+          { "key": "blockAttackBonus", "value": 313 },
+          { "key": "meleeStrengthBonus", "value": 657 },
+          { "key": "meleeDefenceBonus", "value": 54 },
+          { "key": "damageReduction", "value": 8 }
+        ],
+        "specialAttacks": ["melvorF:Flurry", "melvorF:IcePrison", "melvorF:CrushingBlow", "melvorF:Infernum"],
+        "itemType": "Weapon",
+        "attackType": "melee"
+      }
+    ],
+    "itemUpgrades": [
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Crossbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Ancient_Crossbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Ancient_Crossbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Crossbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Crossbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Crossbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Crossbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Crossbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Crossbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Crossbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Crossbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Crossbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_Crossbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_Crossbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_Crossbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Slayer_Crossbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Slayer_Crossbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Slayer_Crossbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Slayer_Crossbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Slayer_Crossbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Slayer_Crossbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Slayer_Crossbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Slayer_Crossbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Slayer_Crossbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Slayer_Crossbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Slayer_Crossbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Slayer_Crossbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Slayer_Crossbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Slayer_Crossbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Slayer_Crossbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Cloudburst_Staff_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Cloudburst_Staff", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Cloudburst_Staff"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Cloudburst_Staff_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Cloudburst_Staff_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Cloudburst_Staff_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Cloudburst_Staff_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Cloudburst_Staff_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Cloudburst_Staff_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Cloudburst_Staff_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Cloudburst_Staff_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Cloudburst_Staff_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Cloudburst_Staff_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Cloudburst_Staff_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Cloudburst_Staff_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_2H_Sword_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Ancient_2H_Sword", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Ancient_2H_Sword"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_2H_Sword_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_2H_Sword_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_2H_Sword_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_2H_Sword_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_2H_Sword_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_2H_Sword_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_2H_Sword_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_2H_Sword_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_2H_Sword_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ancient_2H_Sword_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ancient_2H_Sword_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ancient_2H_Sword_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Big_Ron_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Big_Ron", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Big_Ron"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Big_Ron_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Big_Ron_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Big_Ron_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Big_Ron_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Big_Ron_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Big_Ron_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Big_Ron_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Big_Ron_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Big_Ron_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Big_Ron_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Big_Ron_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Big_Ron_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Twin_Exiles_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Twin_Exiles", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Twin_Exiles"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Twin_Exiles_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Twin_Exiles_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Twin_Exiles_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Twin_Exiles_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Twin_Exiles_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Twin_Exiles_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Twin_Exiles_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Twin_Exiles_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Twin_Exiles_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Twin_Exiles_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Twin_Exiles_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Twin_Exiles_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Miolite_Sceptre_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Miolite_Sceptre", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Miolite_Sceptre"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Miolite_Sceptre_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Miolite_Sceptre_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Miolite_Sceptre_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Miolite_Sceptre_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Miolite_Sceptre_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Miolite_Sceptre_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Miolite_Sceptre_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Miolite_Sceptre_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Miolite_Sceptre_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Miolite_Sceptre_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Miolite_Sceptre_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Miolite_Sceptre_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Sabre_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Desert_Sabre", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Desert_Sabre"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Sabre_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Sabre_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Sabre_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Sabre_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Sabre_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Sabre_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Sabre_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Sabre_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Sabre_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Sabre_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Sabre_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Sabre_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Shortbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Desert_Shortbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Desert_Shortbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Shortbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Shortbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Shortbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Shortbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Shortbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Shortbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Shortbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Shortbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Shortbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Desert_Shortbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Desert_Shortbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Desert_Shortbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Stormsnap_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Stormsnap", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Stormsnap"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Stormsnap_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Stormsnap_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Stormsnap_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Stormsnap_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Stormsnap_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Stormsnap_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Stormsnap_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Stormsnap_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Stormsnap_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Stormsnap_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Stormsnap_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Stormsnap_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Darksteel_Dagger_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Darksteel_Dagger", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Darksteel_Dagger"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Darksteel_Dagger_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Darksteel_Dagger_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Darksteel_Dagger_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Darksteel_Dagger_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Darksteel_Dagger_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Darksteel_Dagger_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Darksteel_Dagger_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Darksteel_Dagger_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Darksteel_Dagger_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Darksteel_Dagger_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Darksteel_Dagger_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Darksteel_Dagger_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sanguine_Blade_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Sanguine_Blade", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Sanguine_Blade"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sanguine_Blade_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sanguine_Blade_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sanguine_Blade_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sanguine_Blade_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sanguine_Blade_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sanguine_Blade_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sanguine_Blade_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sanguine_Blade_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sanguine_Blade_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Sanguine_Blade_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Sanguine_Blade_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Sanguine_Blade_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Claw_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Infernal_Claw", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Infernal_Claw"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Claw_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Infernal_Claw_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Infernal_Claw_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Claw_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Infernal_Claw_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Infernal_Claw_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Claw_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Infernal_Claw_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Infernal_Claw_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Infernal_Claw_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Infernal_Claw_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Infernal_Claw_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Tidal_Edge_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Tidal_Edge", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Tidal_Edge"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Tidal_Edge_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Tidal_Edge_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Tidal_Edge_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Tidal_Edge_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Tidal_Edge_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Tidal_Edge_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Tidal_Edge_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Tidal_Edge_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Tidal_Edge_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Tidal_Edge_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Tidal_Edge_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Tidal_Edge_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ocean_Song_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Ocean_Song", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Ocean_Song"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ocean_Song_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ocean_Song_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ocean_Song_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ocean_Song_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ocean_Song_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ocean_Song_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ocean_Song_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ocean_Song_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ocean_Song_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ocean_Song_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ocean_Song_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ocean_Song_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Shockwave_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Shockwave", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Shockwave"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Shockwave_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Shockwave_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Shockwave_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Shockwave_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Shockwave_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Shockwave_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Shockwave_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Shockwave_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Shockwave_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Shockwave_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Shockwave_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Shockwave_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:War_Axe_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:War_Axe", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:War_Axe"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:War_Axe_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:War_Axe_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:War_Axe_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:War_Axe_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:War_Axe_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:War_Axe_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:War_Axe_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:War_Axe_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:War_Axe_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:War_Axe_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:War_Axe_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:War_Axe_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Warberd_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Warberd", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Warberd"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Warberd_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Warberd_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Warberd_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Warberd_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Warberd_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Warberd_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Warberd_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Warberd_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Warberd_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Warberd_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Warberd_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Warberd_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Natures_Wrath_Staff_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Natures_Wrath_Staff", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Natures_Wrath_Staff"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Natures_Wrath_Staff_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Natures_Wrath_Staff_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Natures_Wrath_Staff_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Natures_Wrath_Staff_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Natures_Wrath_Staff_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Natures_Wrath_Staff_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Natures_Wrath_Staff_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Natures_Wrath_Staff_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Natures_Wrath_Staff_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Natures_Wrath_Staff_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Natures_Wrath_Staff_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Natures_Wrath_Staff_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Shortbow_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Poisoned_Shortbow", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Poisoned_Shortbow"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Shortbow_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Shortbow_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Shortbow_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Shortbow_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Shortbow_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Shortbow_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Shortbow_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Shortbow_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Shortbow_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Shortbow_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Shortbow_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Shortbow_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Dagger_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Poisoned_Dagger", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Poisoned_Dagger"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Dagger_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Dagger_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Dagger_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Dagger_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Dagger_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Dagger_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Dagger_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Dagger_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Dagger_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Poisoned_Dagger_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Poisoned_Dagger_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Poisoned_Dagger_4"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ultima_Godsword_1",
+        "gpCost": 0,
+        "scCost": 0,
+        "itemCosts": [
+          { "id": "melvorF:Ultima_Godsword", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 1 }
+        ],
+        "rootItemIDs": ["melvorF:Ultima_Godsword"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ultima_Godsword_2",
+        "gpCost": 0,
+        "scCost": 100,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ultima_Godsword_1", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 2 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ultima_Godsword_1"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ultima_Godsword_3",
+        "gpCost": 0,
+        "scCost": 200,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ultima_Godsword_2", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 4 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ultima_Godsword_2"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ultima_Godsword_4",
+        "gpCost": 0,
+        "scCost": 300,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ultima_Godsword_3", "quantity": 1 },
+          { "id": "Armament_Expanded:Shiny_Weaponite", "quantity": 8 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ultima_Godsword_3"],
+        "isDowngrade": false
+      },
+      {
+        "upgradedItemID": "Armament_Expanded:Ultima_Godsword_5",
+        "gpCost": 0,
+        "scCost": 400,
+        "itemCosts": [
+          { "id": "Armament_Expanded:Ultima_Godsword_4", "quantity": 1 },
+          { "id": "Armament_Expanded:Weaponite_Slab", "quantity": 1 }
+        ],
+        "rootItemIDs": ["Armament_Expanded:Ultima_Godsword_4"],
+        "isDowngrade": false
+      }
+    ]
+  }
+}
