@@ -114,8 +114,8 @@
         "purchaseRequirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "melvorF:Dragons_Den"
-
+            "dungeonID": "melvorF:Dragons_Den",
+            "count": 1
           }
         ],
         "defaultBuyLimit": 0,
@@ -153,7 +153,8 @@
         "purchaseRequirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "melvorF:Infernal_Stronghold"
+            "dungeonID": "melvorF:Infernal_Stronghold",
+            "count": 1
 
           }
         ],
@@ -193,7 +194,8 @@
         "purchaseRequirements": [
           {
             "type": "DungeonCompletion",
-            "dungeonID": "melvorF:Water_God_Dungeon"
+            "dungeonID": "melvorF:Water_God_Dungeon",
+            "count": 1
 
           }
         ],
