@@ -1,3 +1,7 @@
+V0.4.3
+- Fixed conflict with Semi Autosell
+- Fixed descrption with `Backhand Followthrough` special attack
+
 V0.4.2a
 - Fixed shop bug with weaponite shards
 

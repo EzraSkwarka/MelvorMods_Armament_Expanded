@@ -2070,8 +2070,7 @@
         "attackCount": 2,
         "attackInterval": 50,
         "lifesteal": 0,
-        "description": "${hitCount}",
-        "descriptionGenerator": "<count>"
+        "description": "This attack hits ${hitCount} times. Avoidable."
       },
       {
         "id": "shortbow_shot",
